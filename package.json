@@ -1,27 +1,52 @@
 {
   "name": "awesome-code-implementation",
-  "version": "1.0.0",
-  "description": "Awesome code implementation for Javascript",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
+  "author": "Rain120",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Rain120/awesome-code-implementation.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "version": "1.0.0",
+  "description": "Awesome code implementation for Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint-staged": "lint-staged",
+    "lint-staged:ts": "tslint -c ./tslint.json src/**/**.ts",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "keywords": [
+    "code",
+    "implementation",
+    "code-implementation"
+  ],
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Rain120/awesome-code-implementation/issues"
   },
   "homepage": "https://github.com/Rain120/awesome-code-implementation#readme",
+  "lint-staged": {
+    "{src}/**/**.ts": [
+      "npm run lint-staged:ts",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": [
+        "lint-staged"
+      ],
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "devDependencies": {
     "@types/jest": "^24.0.23",
+    "conventional-changelog-cli": "^2.0.27",
+    "husky": "^3.0.9",
     "jest": "^24.9.0",
+    "lint-staged": "^9.4.3",
     "ts-jest": "^24.1.0",
     "ts-node": "^8.5.0",
+    "tslint": "^5.20.1",
     "typescript": "^3.7.2"
   }
 }

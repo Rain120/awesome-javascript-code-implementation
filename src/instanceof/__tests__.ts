@@ -1,3 +1,10 @@
+/*
+ * @Author: Rainy
+ * @Date: 2019-11-14 19:03:09
+ * @LastEditors: Rainy
+ * @LastEditTime: 2019-11-15 13:48:42
+ */
+
 import { _instanceof } from '.';
 
 function Foo(): void {}
