@@ -26,7 +26,8 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
 #### 🔗 Links
 
-[instanceof](src/instanceof/README.md)
+[x] [instanceof](src/instanceof/README.md)
+[x] [new](src/new/README.md)
 
 #### 👨‍🏭 Author
 
