@@ -2,13 +2,9 @@
   <a href="https://github.com/Rain120/awesome-code-implementation">Awesome code implementation for Javascript</a>
 </h3>
 
-<div align="center">
-
 ## 😚 Welcome
 
 Welcome to the Awesome Code Implementation.
-
-</div>
 
 #### TL;DR
 
@@ -30,7 +26,7 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
 #### 🔗 Links
 
-To be Continue...
+[instanceof](src/instanceof/README.md)
 
 #### 👨‍🏭 Author
 
