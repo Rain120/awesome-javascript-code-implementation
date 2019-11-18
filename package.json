@@ -26,6 +26,7 @@
   "homepage": "https://github.com/Rain120/awesome-code-implementation#readme",
   "lint-staged": {
     "{src}/**/**.ts": [
+      "npm run test",
       "npm run lint-staged:ts",
       "git add"
     ]
