@@ -6,19 +6,26 @@
 
 Welcome to the Awesome Code Implementation.
 
-#### TL;DR
+[中文版本](zh-CN.md)
 
-To be Continue...
+#### 🎮 TL;DR
+
+⌨️ To be Continue...
 
 #### ✍ Why am I doing this?
 
 - Learn **Typescript**, **Jest** etc.
 - Learning something about the **code implementation**.
 
+#### 💻 规划
+
+<img src="plans.svg">
+
+[Download](plans.xmind)
 
 #### 🔨 Usage
 
-To be Continue...
+⌨️ To be Continue...
 
 #### 🤝 Contributing ![PR](https://img.shields.io/badge/PRs-Welcome-orange?style=flat-square&logo=appveyor)
 
