@@ -9,7 +9,7 @@
   "description": "Awesome code implementation for Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "lint-staged": "lint-staged",
     "lint-staged:ts": "tslint -c ./tslint.json src/**/**.ts",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"

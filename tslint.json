@@ -79,6 +79,7 @@
         }
       ],
       "use-isnan": true,
+      "interface-over-type-literal": false,
       "variable-name": [true, "allow-leading-underscore", "ban-keywords", "check-format", "allow-pascal-case"],
       "whitespace": [
         true,
