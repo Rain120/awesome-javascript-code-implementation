@@ -1,5 +1,5 @@
 <h3 align="center">
-  <a href="https://github.com/Rain120/awesome-code-implementation">Awesome code implementation for Javascript</a>
+  <a href="https://github.com/Rain120/awesome-javascript-code-implementation">Awesome code implementation for Javascript</a>
 </h3>
 
 ## 😚 Welcome
@@ -21,7 +21,7 @@ Welcome to the Awesome Code Implementation.
 
 <img src="plans.svg">
 
-[Download](plans.xmind)
+[Xmind Download](plans.xmind)
 
 #### 🔨 Usage
 
@@ -29,13 +29,59 @@ Welcome to the Awesome Code Implementation.
 
 #### 🤝 Contributing ![PR](https://img.shields.io/badge/PRs-Welcome-orange?style=flat-square&logo=appveyor)
 
-We welcome all contributions. You can submit any ideas as [pull requests](https://github.com/Rain120/awesome-code-implementation/pulls) or as a GitHub [issue](https://github.com/Rain120/awesome-code-implementation/issues). 
+We welcome all contributions. You can submit any ideas as [pull requests](https://github.com/Rain120/awesome-javascript-code-implementation/pulls) or as a GitHub [issue](https://github.com/Rain120/awesome-javascript-code-implementation/issues). 
 
 #### 🔗 Links
 
-- [x] [instanceof](src/instanceof/README.md)
+- [ ] Primitive
 
-- [x] [new](src/new/README.md)
+  - [ ] Javascript Keys
+
+    - [x] [instanceof](src/instanceof/README.md)
+
+    - [x] [new](src/new/README.md)
+
+  - [ ] Array
+
+    - [ ] isArray
+
+  - [ ] Object
+
+- [ ] ES6
+
+  - [ ] Promise
+
+  - [ ] Proxy
+
+  - [ ] async / await
+
+  - [ ] extends
+
+- [ ] 方法
+
+  - [ ] debounce
+
+  - [ ] throttle
+
+  - [ ] curry
+
+- [ ] Algorithm
+
+  - [ ] Sort
+
+  - [ ] DP
+
+  - [ ] Tree
+
+  - [ ] Graph
+
+- [ ] 实用工具库
+
+  - [ ] Lodash
+
+- [ ] 函数式编程库
+
+  - [ ] Ramda
 
 #### 👨‍🏭 Author
 
@@ -47,6 +93,6 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
 #### 📝 License
 
-[MIT](https://github.com/Rain120/awesome-code-implementation/blob/master/LICENSE)
+[MIT](https://github.com/Rain120/awesome-javascript-code-implementation/blob/master/LICENSE)
 
 Copyright © 2019-present [Rain120](https://github.com/Rain120).
