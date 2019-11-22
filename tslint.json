@@ -12,6 +12,7 @@
       ]
     },
     "rules": {
+      "align": [true, "statements"],
       "arrow-parens": [true, "ban-single-arg-parens"],
       "class-name": true,
       "eofline": true,

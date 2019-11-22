@@ -1,10 +1,19 @@
 <h3 align="center">
-  <a href="https://github.com/Rain120/awesome-javascript-code-implementation">Awesome code implementation for Javascript</a>
+  <a href="https://github.com/Rain120/awesome-javascript-code-implementation">Awesome Javascript Code Implementation</a>
 </h3>
+
+<div align="center">
+
+[![WATCH](https://img.shields.io/github/watchers/rain120/awesome-javascript-code-implementation?style=social)](https://github.com/Rain120/awesome-javascript-code-implementation/watchers) [![STAR](https://img.shields.io/github/stars/rain120/awesome-javascript-code-implementation?style=social)](https://github.com/Rain120/awesome-javascript-code-implementation/stargazers) [![FORK](https://img.shields.io/github/forks/rain120/awesome-javascript-code-implementation?style=social)](https://github.com/Rain120/awesome-javascript-code-implementation/network/members)
+
+[![TEST](https://github.com/rain120/awesome-javascript-code-implementation/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/Rain120/awesome-javascript-code-implementation/actions) ![LANGUAGES](https://img.shields.io/github/languages/top/rain120/awesome-javascript-code-implementation?style=flat-square)
+[![VERSION](https://img.shields.io/github/package-json/v/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/blob/master/package.json) [![LICENSE](https://img.shields.io/github/license/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/blob/master/LICENSE) [![ISSUES](https://img.shields.io/github/issues/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/issues) [![COMMIT](https://img.shields.io/github/last-commit/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/commits/master)
+
+</div>
 
 ## 😚 Welcome
 
-Welcome to the Awesome Code Implementation.
+Welcome to the Awesome Javascript Code Implementation.
 
 [中文版本](zh-CN.md)
 
@@ -17,7 +26,7 @@ Welcome to the Awesome Code Implementation.
 - Learn **Typescript**, **Jest** etc.
 - Learning something about the **code implementation**.
 
-#### 💻 规划
+#### 💻 Plans
 
 <img src="plans.svg">
 
@@ -43,7 +52,7 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
   - [ ] Array
 
-    - [ ] isArray
+    - [x] isArray
 
   - [ ] Object
 
@@ -64,6 +73,8 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
   - [ ] throttle
 
   - [ ] curry
+
+  - [x] arrayMove
 
 - [ ] Algorithm
 

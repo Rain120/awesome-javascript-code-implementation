@@ -9,16 +9,21 @@
   "description": "Awesome code implementation for Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest",
+    "coveralls": "jest --coverage",
     "test:watchAll": "jest --coverage --watchAll",
     "lint-staged": "lint-staged",
     "lint-staged:ts": "tslint -c ./tslint.json src/**/**.ts",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "keywords": [
+    "awesome",
+    "javascript",
     "code",
     "implementation",
-    "code-implementation"
+    "code-implementation",
+    "sort",
+    "typescript"
   ],
   "license": "MIT",
   "bugs": {
@@ -43,6 +48,7 @@
   "devDependencies": {
     "@types/jest": "^24.0.23",
     "conventional-changelog-cli": "^2.0.27",
+    "coveralls": "^3.0.8",
     "husky": "^3.0.9",
     "jest": "^24.9.0",
     "lint-staged": "^9.4.3",

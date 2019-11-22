@@ -2,6 +2,15 @@
   <a href="https://github.com/Rain120/awesome-javascript-code-implementation">非常好的Javascript源码实现</a>
 </h3>
 
+<div align="center">
+
+[![WATCH](https://img.shields.io/github/watchers/rain120/awesome-javascript-code-implementation?style=social)](https://github.com/Rain120/awesome-javascript-code-implementation/watchers) [![STAR](https://img.shields.io/github/stars/rain120/awesome-javascript-code-implementation?style=social)](https://github.com/Rain120/awesome-javascript-code-implementation/stargazers) [![FORK](https://img.shields.io/github/forks/rain120/awesome-javascript-code-implementation?style=social)](https://github.com/Rain120/awesome-javascript-code-implementation/network/members)
+
+[![TEST](https://github.com/rain120/awesome-javascript-code-implementation/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/Rain120/awesome-javascript-code-implementation/actions) ![LANGUAGES](https://img.shields.io/github/languages/top/rain120/awesome-javascript-code-implementation?style=flat-square)
+[![VERSION](https://img.shields.io/github/package-json/v/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/blob/master/package.json) [![LICENSE](https://img.shields.io/github/license/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/blob/master/LICENSE) [![ISSUES](https://img.shields.io/github/issues/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/issues) [![COMMIT](https://img.shields.io/github/last-commit/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/commits/master)
+
+</div>
+
 ## 😚 欢迎
 
 欢迎来到 JavaScript **源码实现**现场和我们一起学习编程 😁😁.
@@ -43,7 +52,7 @@
 
   - [ ] Array
 
-    - [ ] isArray
+    - [x] isArray
 
   - [ ] Object
 
@@ -64,6 +73,8 @@
   - [ ] throttle
 
   - [ ] curry
+
+  - [x] arrayMove
 
 - [ ] Algorithm
 
