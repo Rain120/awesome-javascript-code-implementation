@@ -80,6 +80,8 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
   - [ ] Sort
 
+    - [x] bubbleSort
+
   - [ ] DP
 
   - [ ] Tree

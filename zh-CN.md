@@ -80,6 +80,8 @@
 
   - [ ] Sort
 
+    - [x] bubbleSort
+
   - [ ] DP
 
   - [ ] Tree
