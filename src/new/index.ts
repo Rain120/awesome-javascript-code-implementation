@@ -1,8 +1,8 @@
 /*
  * @Author: Rainy
  * @Date: 2019-11-14 19:25:01
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2019-11-17 22:12:02
+ * @LastEditors: Rainy
+ * @LastEditTime: 2019-11-24 20:52:08
  */
 export function _new(...arg: any): any {
   // 1
