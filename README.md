@@ -82,6 +82,20 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
     - [x] bubbleSort
 
+    - [x] countingSort
+
+    - [x] heapSort
+
+    - [x] insertionSort
+
+    - [x] mergeSort
+
+    - [x] quickSort
+
+    - [x] shellSort
+
+    - [x] selectionSort
+
   - [ ] DP
 
   - [ ] Tree

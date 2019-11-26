@@ -82,6 +82,20 @@
 
     - [x] bubbleSort
 
+    - [x] countingSort
+
+    - [x] heapSort
+
+    - [x] insertionSort
+
+    - [x] mergeSort
+
+    - [x] quickSort
+
+    - [x] shellSort
+
+    - [x] selectionSort
+
   - [ ] DP
 
   - [ ] Tree
