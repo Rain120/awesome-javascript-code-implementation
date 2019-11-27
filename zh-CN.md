@@ -102,6 +102,10 @@
 
   - [ ] Graph
 
+- [ ] Math
+
+  - [x] binary
+  
 - [ ] 实用工具库
 
   - [ ] Lodash

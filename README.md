@@ -102,6 +102,10 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
   - [ ] Graph
 
+- [ ] Math
+
+  - [x] binary
+
 - [ ] 实用工具库
 
   - [ ] Lodash
