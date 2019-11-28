@@ -17,7 +17,7 @@
 ```
 value << 1 = Math.floor(value * 2)
 
-value << n = Math.floor(value * 2 ^ (n - 1))
+value << n = Math.floor(value * 2 ^ n)
 ```
 
 - 右移
@@ -25,18 +25,23 @@ value << n = Math.floor(value * 2 ^ (n - 1))
 ```
 value >> 1 = Math.floor(value / 2)
 
-value >> n = Math.floor(value / 2 ^ (n - 1))
+value >> n = Math.floor(value / 2 ^ n)
 ```
 
 逻辑操作
 
-- 与
+- 与 `&`
+
 见 `0` 出 `0`
 
-- 或
+- 或 `|`
 
 见 `1` 出 `1`
 
-- 异或
+- 非 `~`
+
+`0 -> 1, 1 -> 0`
+
+- 异或 `^`
 
 同为 `0`, 异为 `1`

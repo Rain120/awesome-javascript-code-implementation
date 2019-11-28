@@ -5,7 +5,7 @@
  * @LastEditTime: 2019-11-24 17:52:06
  */
 
-import { NumberArrayMap } from '../../../types';
+import { NumberArrayMap } from 'types';
 
 export function countingSort(arr: NumberArrayMap, maxValue: number): NumberArrayMap {
   let bucket: NumberArrayMap = new Array(maxValue + 1);

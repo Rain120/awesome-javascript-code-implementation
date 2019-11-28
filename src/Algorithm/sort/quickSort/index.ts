@@ -5,7 +5,7 @@
  * @LastEditTime: 2019-11-24 20:51:18
  */
 
-import { NumberArrayMap } from '../../../types';
+import { NumberArrayMap } from 'types';
 
 export function quickSort(arr: NumberArrayMap, left?: number, right?: number) {
   let len: number = arr.length;

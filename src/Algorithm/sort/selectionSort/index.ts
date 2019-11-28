@@ -5,7 +5,7 @@
  * @LastEditTime: 2019-11-24 17:51:27
  */
 
-import { BaseArrayMap } from '../../../types';
+import { BaseArrayMap } from 'types';
 
 export function selectionSort(arr: BaseArrayMap): BaseArrayMap {
   let len = arr.length;

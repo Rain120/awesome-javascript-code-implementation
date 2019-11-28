@@ -5,7 +5,7 @@
  * @LastEditTime: 2019-11-24 17:52:16
  */
 
-import { BaseArrayMap } from '../../../types';
+import { BaseArrayMap } from 'types';
 
 export function bubbleSort(arr: BaseArrayMap): BaseArrayMap {
   let len = arr.length;

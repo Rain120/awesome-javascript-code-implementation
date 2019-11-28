@@ -5,7 +5,7 @@
  * @LastEditTime: 2019-11-24 21:02:34
  */
 
-import { BaseArrayMap } from '../../../types';
+import { BaseArrayMap } from 'types';
 
 export function insertionSort(arr: BaseArrayMap): BaseArrayMap {
   let len = arr.length;

@@ -5,7 +5,7 @@
  * @LastEditTime: 2019-11-24 19:43:47
  */
 
-import { NumberArrayMap } from '../../../types';
+import { NumberArrayMap } from 'types';
 
 export function shellSort(
   arr: NumberArrayMap,

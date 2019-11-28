@@ -5,7 +5,7 @@
  * @LastEditTime: 2019-11-24 20:50:03
  */
 
-import { NumberArrayMap } from '../../../types';
+import { NumberArrayMap } from 'types';
 
 export function heapSort(arr: NumberArrayMap): NumberArrayMap {
   let len = arr.length;

@@ -1,8 +1,8 @@
 /*
  * @Author: Rainy
  * @Date: 2019-11-14 19:25:01
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2019-11-27 22:04:33
+ * @LastEditors: Rainy
+ * @LastEditTime: 2019-11-28 18:55:24
  */
 
 import {
@@ -10,6 +10,7 @@ import {
     bitRightShift,
     bitAnd,
     bitOr,
+    bitNot,
     bitXOR,
 } from '.';
 
@@ -59,6 +60,14 @@ test('1 | 1 should 1', () => {
 
 test('0 ^ 0 should 0', () => {
     expect(bitOr(0, 0)).toEqual(0);
+});
+
+// bitNot
+test('~1 should -2', () => {
+    expect(bitNot(1)).toBe(-2);
+});
+test('~2 should -3', () => {
+    expect(bitNot(2)).toBe(-3);
 });
 
 // bitXOR

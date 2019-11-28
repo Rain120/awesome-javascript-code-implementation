@@ -5,7 +5,7 @@
  * @LastEditTime: 2019-11-24 21:00:03
  */
 
-import { BaseArrayMap } from '../../../types';
+import { BaseArrayMap } from 'types';
 
 export function mergeSort(arr: BaseArrayMap): BaseArrayMap {
   let len = arr.length;
