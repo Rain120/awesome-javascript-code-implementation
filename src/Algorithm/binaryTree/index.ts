@@ -2,10 +2,10 @@
  * @Author: Rainy
  * @Date: 2019-11-14 19:25:01
  * @LastEditors: Rainy
- * @LastEditTime: 2019-11-28 21:28:12
+ * @LastEditTime: 2019-11-29 15:29:42
  */
 
-import { func } from 'types'
+import { NullFunction } from 'types'
 export class BinaryTree {
 
     key: any;
@@ -38,12 +38,12 @@ export class BinaryTree {
     _removeNode(node: BinaryTree, key: any): BinaryTree | any {}
     remove(key: any) {}
 
-    _preOrderTraverse(node: BinaryTree, callback: func): any {}
+    _preOrderTraverse(node: BinaryTree, callback: NullFunction): any {}
     preOrderTraverse(): any {}
 
-    _inOrderTraverseNode(node: BinaryTree, callback: func): any {}
+    _inOrderTraverseNode(node: BinaryTree, callback: NullFunction): any {}
     inOrderTraverseRet(): any {}
 
-    _postOrderTraverseRet(node: BinaryTree, callback: func): any {}
+    _postOrderTraverseRet(node: BinaryTree, callback: NullFunction): any {}
     postOrderTraverseRet(): any {}
 }
