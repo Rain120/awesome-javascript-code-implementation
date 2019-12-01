@@ -24,7 +24,7 @@ Welcome to the Awesome Javascript Code Implementation.
 #### ✍ Why am I doing this?
 
 - Learn **Typescript**, **Jest** etc.
-- Learning something about the **code implementation**.
+- Learning something about the **javascript code implementation**.
 
 #### 💻 Plans
 
@@ -38,7 +38,7 @@ Welcome to the Awesome Javascript Code Implementation.
 
 #### 🤝 Contributing ![PR](https://img.shields.io/badge/PRs-Welcome-orange?style=flat-square&logo=appveyor)
 
-We welcome all contributions. You can submit any ideas as [pull requests](https://github.com/Rain120/awesome-javascript-code-implementation/pulls) or as a GitHub [issue](https://github.com/Rain120/awesome-javascript-code-implementation/issues). 
+We welcome all contributions. You can submit any ideas as [pull requests](https://github.com/Rain120/awesome-javascript-code-implementation/pulls) or as a GitHub [issue](https://github.com/Rain120/awesome-javascript-code-implementation/issues).
 
 #### 🔗 Links
 
@@ -96,9 +96,15 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
     - [x] selectionSort
 
+    - [x] radixSort
+
+    - [x] bucketSort
+
   - [ ] DP
 
   - [ ] Tree
+
+    - [x] binaryTree
 
   - [ ] Graph
 
@@ -113,6 +119,19 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 - [ ] 函数式编程库
 
   - [ ] Ramda
+
+#### 📰 References
+
+- Algorithms
+  
+  [Visualising Data Structures and Algorithms Through Animation](https://visualgo.net/)
+
+  [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+
+- sort
+  [JS-Sorting-Algorithm](https://github.com/Rain120/JS-Sorting-Algorithm)
+
+  [JS ArraySort Performance Analysis](https://dailc.github.io/jsfoundation-perfanalysis/html/performanceAnalysis/demo_performanceAnalysis_jsarraySort.html)
 
 #### 👨‍🏭 Author
 

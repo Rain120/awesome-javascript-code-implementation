@@ -24,7 +24,7 @@
 #### ✍ 为什么我要做这个?
 
 - 学习 **Typescript**, **Jest** 等知识.
-- 学习一些常见的 **源码实现**.
+- 学习一些常见的 **Javascript 源码实现**.
 
 #### 💻 规划
 
@@ -96,9 +96,15 @@
 
     - [x] selectionSort
 
+    - [x] radixSort
+
+    - [x] bucketSort
+
   - [ ] DP
 
   - [ ] Tree
+
+    - [x] binaryTree
 
   - [ ] Graph
 
@@ -114,6 +120,19 @@
 
   - [ ] Ramda
 
+
+#### 📰 参考资料
+
+- 算法
+
+  [数据结构和算法动态可视化](https://visualgo.net/)
+
+  [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+
+- 排序
+  [十大经典排序算法](https://github.com/Rain120/JS-Sorting-Algorithm)
+
+  [JS 数组排序性能分析](https://dailc.github.io/jsfoundation-perfanalysis/html/performanceAnalysis/demo_performanceAnalysis_jsarraySort.html)
 
 #### 👨‍🏭 作者
 
