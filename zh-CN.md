@@ -56,6 +56,8 @@
 
   - [ ] Object
 
+    - [x] is
+
 - [ ] ES6
 
   - [ ] Promise

@@ -56,6 +56,8 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
   - [ ] Object
 
+    - [x] is
+
 - [ ] ES6
 
   - [ ] Promise
