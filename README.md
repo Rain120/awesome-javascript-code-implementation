@@ -131,6 +131,7 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
   [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
 - sort
+
   [JS-Sorting-Algorithm](https://github.com/Rain120/JS-Sorting-Algorithm)
 
   [JS ArraySort Performance Analysis](https://dailc.github.io/jsfoundation-perfanalysis/html/performanceAnalysis/demo_performanceAnalysis_jsarraySort.html)
