@@ -131,6 +131,8 @@
 
   [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
+  [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
+
 - 排序
 
   [十大经典排序算法](https://github.com/Rain120/JS-Sorting-Algorithm)

@@ -130,6 +130,8 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
   [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
+  [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
+
 - sort
 
   [JS-Sorting-Algorithm](https://github.com/Rain120/JS-Sorting-Algorithm)
