@@ -1,8 +1,8 @@
 /*
  * @Author: Rainy
  * @Date: 2019-11-14 19:25:01
- * @LastEditors: Rainy
- * @LastEditTime: 2019-12-01 12:00:19
+ * @LastEditors  : Rainy
+ * @LastEditTime : 2019-12-29 11:20:52
  */
 
 import { bucketSort } from '.';
@@ -11,8 +11,17 @@ import { NumberArrayMap } from 'types';
 const input: NumberArrayMap = [3, 2, 1, 2, 3, 21, 123, 312, 123, 11];
 const input2: NumberArrayMap = [3, 2, 1, 2, 3, 21, 123, 312, 123, 12345, 2222, 111, 11];
 
+
+test('bucketSort([]) should be []', () => {
+  expect(bucketSort([])).toEqual([]);
+});
+
 test('bucketSort([], 0) should be []', () => {
   expect(bucketSort([], 0)).toEqual([]);
+});
+
+test('bucketSort([3], 1) should be [3]', () => {
+  expect(bucketSort([3])).toEqual([3]);
 });
 
 test('bucketSort([3], 1) should be [3]', () => {

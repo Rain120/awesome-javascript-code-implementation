@@ -1,8 +1,8 @@
 /*
  * @Author: Rainy
  * @Date: 2019-11-14 19:25:01
- * @LastEditors: Rainy
- * @LastEditTime: 2019-12-01 11:39:39
+ * @LastEditors  : Rainy
+ * @LastEditTime : 2019-12-29 11:15:28
  */
 
 import { NumberArrayMap } from 'types';
@@ -10,7 +10,7 @@ import { insertionSort } from '../insertionSort';
 
 export function bucketSort(
   arr: NumberArrayMap,
-  bucketSize: number
+  bucketSize?: number,
 ): NumberArrayMap {
   if (arr.length === 0) {
     return arr;
