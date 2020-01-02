@@ -9,7 +9,7 @@
   "description": "Awesome code implementation for Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "coveralls": "jest --coverage",
     "test:watchAll": "jest --coverage --watchAll",
     "lint-staged": "lint-staged",
