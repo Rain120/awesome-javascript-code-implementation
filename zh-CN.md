@@ -56,6 +56,8 @@
 
   - [ ] Object
 
+    - [x] is
+
 - [ ] ES6
 
   - [ ] Promise
@@ -128,6 +130,8 @@
   [数据结构和算法动态可视化](https://visualgo.net/)
 
   [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+
+  [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 
 - 排序
 

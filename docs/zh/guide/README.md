@@ -52,9 +52,11 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
   - [ ] Array
 
-    - [x] isArray
+    - [x] [isArray](src/Array/isArray/README.md)
 
   - [ ] Object
+
+    - [x] [is](src/Object/README.md)
 
 - [ ] ES6
 
@@ -68,9 +70,9 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
 - [ ] 方法
 
-  - [ ] debounce
+  - [x] [debounce](src/function/debounce/README.md)
 
-  - [ ] throttle
+  - [x] [throttle](src/function/throttle/README.md)
 
   - [ ] curry
 
@@ -78,39 +80,39 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
 - [ ] Algorithm
 
-  - [ ] Sort
+  - [x] Sort
 
-    - [x] bubbleSort
+    - [x] [bubbleSort](src/Algorithm/sort/bubbleSort/README.md)
 
-    - [x] countingSort
+    - [x] [countingSort](src/Algorithm/sort/countingSort/README.md)
 
-    - [x] heapSort
+    - [x] [heapSort](src/Algorithm/sort/heapSort/README.md)
 
-    - [x] insertionSort
+    - [x] [insertionSort](src/Algorithm/sort/insertionSort/README.md)
 
-    - [x] mergeSort
+    - [x] [mergeSort](src/Algorithm/sort/mergeSort/README.md)
 
-    - [x] quickSort
+    - [x] [quickSort](src/Algorithm/sort/quickSort/README.md)
 
-    - [x] shellSort
+    - [x] [shellSort](src/Algorithm/sort/shellSort/README.md)
 
-    - [x] selectionSort
+    - [x] [selectionSort](src/Algorithm/sort/selectionSort/README.md)
 
-    - [x] radixSort
+    - [x] [radixSort](src/Algorithm/sort/radixSort/README.md)
 
-    - [x] bucketSort
+    - [x] [bucketSort](src/Algorithm/sort/bucketSort/README.md)
 
   - [ ] DP
 
   - [ ] Tree
 
-    - [x] binaryTree
+    - [x] [binaryTree](src/Algorithm/binaryTree/README.md)
 
   - [ ] Graph
 
 - [ ] Math
 
-  - [x] binary
+  - [x] [binary](src/Algorithm/binary/README.md)
 
 - [ ] 实用工具库
 
@@ -127,6 +129,8 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
   [Visualising Data Structures and Algorithms Through Animation](https://visualgo.net/)
 
   [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+
+  [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 
 - sort
 

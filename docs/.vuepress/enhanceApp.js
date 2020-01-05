@@ -2,7 +2,7 @@
  * @Author: Rainy
  * @Date: 2019-12-01 14:25:59
  * @LastEditors: Rainy
- * @LastEditTime: 2019-12-04 19:19:13
+ * @LastEditTime: 2019-12-05 20:38:59
  */
 
 function tryRun (fn, times = 3) {
@@ -61,7 +61,7 @@ function integrateGitalk(router) {
       repo: 'https://github.com/Rain120/awesome-javascript-code-implementation',
       owner: 'rain120',
       admin: ['rain120'],
-      id: 'comment',
+      id: window.location.pathname || fullPath || 'comment',
       distractionFreeMode: false,
       language: 'zh-CN'
     });

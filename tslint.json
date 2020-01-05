@@ -24,6 +24,7 @@
       "jsx-no-multiline-js": false,
       "jsx-no-string-ref": false,
       "label-position": true,
+      "max-classes-per-file": false,
       "member-access": [true, "no-public"],
       "member-ordering": [
         true,

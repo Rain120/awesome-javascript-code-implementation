@@ -9,7 +9,7 @@
   "description": "Awesome code implementation for Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "coveralls": "jest --coverage",
     "test:watchAll": "jest --coverage --watchAll",
     "lint-staged": "lint-staged",
@@ -49,6 +49,9 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.23",
+    "@vuepress/plugin-back-to-top": "^1.2.0",
+    "@vuepress/plugin-google-analytics": "^1.2.0",
+    "@vuepress/plugin-medium-zoom": "^1.2.0",
     "conventional-changelog-cli": "^2.0.27",
     "coveralls": "^3.0.8",
     "husky": "^3.0.9",

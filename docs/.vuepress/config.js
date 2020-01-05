@@ -1,3 +1,10 @@
+const path = require('path');
+const plugins = require('./utils/plugins');
+const { sidebarHelper } = require('./utils/sidebarHelper');
+const nav = require('./utils/nav');
+
+console.log(JSON.stringify(sidebarHelper()));
+
 module.exports = {
   base: '/awesome-javascript-code-implementation/',
   title: "非常棒的 JavaScript 源码实现",
@@ -6,9 +13,9 @@ module.exports = {
   head: [["link", { rel: "icon", href: "/logo.png" }]],
   configureWebpack: {
     resolve: {
-      // images: {
-      //   '@images': '/images'
-      // }
+      alias: {
+        '@images': path.join(__dirname, '../images'),
+      }
     }
   },
   themeConfig: {
@@ -16,25 +23,9 @@ module.exports = {
     repo: "https://github.com/Rain120/awesome-javascript-code-implementation",
     repoLabel: 'Repo',
 
-    sidebar: [{
-      title: 'Guide',
-      path: '/guide/',
-      children: [
-        '/'
-      ]
-    }],
-    nav: [
-      { text: "Home", link: "/" },
-      {
-        text: "Languages",
-        ariaLabel: "Language Menu",
-        items: [
-          { text: "Chinese", link: "/language/chinese/" },
-          { text: "Japanese", link: "/language/japanese/" }
-        ]
-      },
-      { text: "Github", link: "https://github.com/rain120", target: "_blank"},
-    ],
+    displayAllHeaders: true,
+    sidebar: sidebarHelper(),
+    nav,
 
     // polyfill IE
     evergreen: true,
@@ -88,5 +79,6 @@ module.exports = {
     docsBranch: "master",
     editLinks: true,
     editLinkText: "帮助我们改善此页面！"
-  }
+  },
+  plugins
 };

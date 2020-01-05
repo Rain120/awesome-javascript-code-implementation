@@ -3,7 +3,7 @@ home: true
 activity: true
 heroImage: /img/fe.png
 actionText: 快速上手 👉
-actionLink: /guide/
+actionLink: /zh/guide/
 
 # tagline: Welcome to the Javascript Code Implementation
 
