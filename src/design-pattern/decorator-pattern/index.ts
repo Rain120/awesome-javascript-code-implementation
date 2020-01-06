@@ -1,11 +1,9 @@
 /*
  * @Author: Rainy
  * @Date: 2019-11-14 19:25:01
- * @LastEditors: Rainy
- * @LastEditTime: 2019-12-13 19:47:50
+ * @LastEditors  : Rainy
+ * @LastEditTime : 2020-01-06 10:56:04
  */
-
-
 
 class Decorator {
   circle: Circle;

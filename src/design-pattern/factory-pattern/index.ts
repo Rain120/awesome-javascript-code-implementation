@@ -5,7 +5,7 @@
  * @LastEditTime : 2019-12-22 17:29:47
  */
 
-class Creator{
+class Creator {
   create(name: string): Product {
     return new Product(name);
   }

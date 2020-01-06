@@ -2,10 +2,10 @@
  * @Author: Rainy
  * @Date: 2019-11-14 19:25:01
  * @LastEditors  : Rainy
- * @LastEditTime : 2019-12-23 20:00:02
+ * @LastEditTime : 2020-01-06 10:55:55
  */
 
-class Adapter{
+class Adapter {
   specificRequest(): void {}
 }
 
