@@ -1,4 +1,4 @@
-name: Test
+name: Test, Build and Deploy Docs
 
 on:
   push:
@@ -14,22 +14,26 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    # strategy:
-    #   matrix:
-    #     node-version: [8.x, 10.x, 12.x]
+    strategy:
+      matrix:
+        node-version: [8.x, 10.x, 12.x]
 
     steps:
     - uses: actions/checkout@v1
-    - run: npm i
-    - run: npm run docs:build
-    - run: npm run changelog
+    # - run: npm i
+    # - run: npm run docs:build
+    # - run: npm run changelog
     # - name: Use Node.js ${{ matrix.node-version }}
     #   uses: actions/setup-node@v1
-    #   with:
-    #     node-version: ${{ matrix.node-version }}
+      with:
+        node-version: ${{ matrix.node-version }}
 
     - name: Build and Deploy Docs
       uses: JamesIves/github-pages-deploy-action@master
+      - run: npm i
+      - run: npm run docs:build
+      - run: npm run test
+      - run: npm run changelog
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         EXTERNAL_REPOSITORY: rain120/rain120.github.io/awesome-javascript-code-implementation
@@ -37,12 +41,12 @@ jobs:
         PUBLISH_DIR: docs/.vuepress/dist
         CI: true
 
-    - name: Test
-      run: |
-        # npm run build --if-present
-        npm test
-        # npm run coveralls
-        # npm run build
-        npm run changelog
-      env:
-        CI: true
+    # - name: Test
+    #   run: |
+    #     # npm run build --if-present
+    #     npm test
+    #     # npm run coveralls
+    #     # npm run build
+    #     npm run changelog
+    #   env:
+    #     CI: true
