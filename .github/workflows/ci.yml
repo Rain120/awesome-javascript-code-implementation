@@ -36,10 +36,9 @@ jobs:
       - run: npm run changelog
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        EXTERNAL_REPOSITORY: rain120/rain120.github.io/awesome-javascript-code-implementation
-        PUBLISH_BRANCH: master
-        PUBLISH_DIR: docs/.vuepress/dist
-        CI: true
+        BRANCH: gh-pages
+        FOLDER: .vuepress/dist
+        BUILD_SCRIPT: npm install && npm run build
 
     # - name: Test
     #   run: |

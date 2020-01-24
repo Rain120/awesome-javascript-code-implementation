@@ -118,6 +118,10 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
   - [ ] Lodash
 
+    - [ ] Internal
+
+      - [x] BaseFindIndex
+
 - [ ] 函数式编程库
 
   - [ ] Ramda
