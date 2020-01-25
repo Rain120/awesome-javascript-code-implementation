@@ -1,71 +1,52 @@
-# name: Test, Build and Deploy Docs
+name: Test, Build and Deploy Docs
 
-# on:
-#   push:
-#     branches:
-#       - master
-#   pull_request:
-#     branches:
-#       - '!master'
-#       - 'dev**'
-
-# jobs:
-#   build-deploy:
-
-#     runs-on: ubuntu-latest
-
-#     strategy:
-#       matrix:
-#         node-version: [8.x, 10.x, 12.x]
-
-#     steps:
-#     - uses: actions/checkout@v1
-#     # - run: npm i
-#     # - run: npm run docs:build
-#     # - run: npm run changelog
-#     # - name: Use Node.js ${{ matrix.node-version }}
-#     #   uses: actions/setup-node@v1
-#       with:
-#         node-version: ${{ matrix.node-version }}
-
-#     - name: Build and Deploy Docs
-#       uses: JamesIves/github-pages-deploy-action@master
-#       - run: npm i
-#       - run: npm run docs:build
-#       - run: npm run test
-#       - run: npm run changelog
-#       env:
-#         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-#         BRANCH: gh-pages
-#         FOLDER: .vuepress/dist
-#         BUILD_SCRIPT: npm install && npm run build
-
-#     # - name: Test
-#     #   run: |
-#     #     # npm run build --if-present
-#     #     npm test
-#     #     # npm run coveralls
-#     #     # npm run build
-#     #     npm run changelog
-#     #   env:
-#     #     CI: true
-
-name: GitHub Actions Build and Deploy Demo
 on:
   push:
     branches:
       - master
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@master
+  pull_request:
+    branches:
+      - '!master'
+      - 'dev**'
 
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@master
+jobs:
+  build-deploy:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [8.x, 10.x, 12.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    # - run: npm i
+    # - run: npm run docs:build
+    # - run: npm run changelog
+    # - name: Use Node.js ${{ matrix.node-version }}
+    #   uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    # - name: Build and Deploy Docs
+    #   uses: JamesIves/github-pages-deploy-action@master
+    #   - run: npm i
+    #   - run: npm run docs:build
+    #   - run: npm run test
+    #   - run: npm run changelog
+    #   env:
+    #     ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+    #     BRANCH: gh-pages
+    #     FOLDER: .vuepress/dist
+    #     BUILD_SCRIPT: npm install && npm run build
+
+    - name: Test
+      run: |
+        # npm run build --if-present
+        npm run deploy
+        npm test
+        # npm run coveralls
+        # npm run build
+        npm run changelog
       env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: .vuepress/dist
-        BUILD_SCRIPT: npm install && npm run build
+        CI: true
