@@ -10,39 +10,25 @@ on:
       - 'dev**'
 
 jobs:
-  build-deploy:
-
+  build-and-deploy:
+    name: Deploy Docs
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [8.x, 10.x, 12.x]
-
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
+      - name: Checkout Master
+        uses: actions/checkout@master
 
-    - name: Build and Deploy Docs
-      uses: JamesIves/github-pages-deploy-action@master
-      run: |
-        npm install
-        npm run docs:build
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: master
-        FOLDER: docs/.vuepress/dist
-        BUILD_SCRIPT: npm install && npm run build
+      - name: Test
+        run: |
+          npm install
+          # npm run build --if-present
+          npm test
+          npm run changelog
 
-    - name: Test
-      run: |
-        npm install
-        # npm run build --if-present
-        npm test
-        # npm run coveralls
-        # npm run build
-        npm run changelog
-      env:
-        CI: true
+      - name: Build and Deploy Docs
+        uses: JamesIves/github-pages-deploy-action@master
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: master
+          FOLDER: docs/.vuepress/dist
+          BUILD_SCRIPT: npm install && npm run build
