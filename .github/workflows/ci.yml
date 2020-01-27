@@ -20,24 +20,21 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    # - run: npm i
-    # - run: npm run docs:build
-    # - run: npm run changelog
-    # - name: Use Node.js ${{ matrix.node-version }}
-    #   uses: actions/setup-node@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
 
-    # - name: Build and Deploy Docs
-    #   uses: JamesIves/github-pages-deploy-action@master
-    #   run: |
-    #     npm install
-    #     npm run docs:build
-    #   env:
-    #     ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-    #     BRANCH: gh-pages
-    #     FOLDER: .vuepress/dist
-    #     BUILD_SCRIPT: npm install && npm run build
+    - name: Build and Deploy Docs
+      uses: JamesIves/github-pages-deploy-action@master
+      run: |
+        npm install
+        npm run docs:build
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: master
+        FOLDER: docs/.vuepress/dist
+        BUILD_SCRIPT: npm install && npm run build
 
     - name: Test
       run: |
