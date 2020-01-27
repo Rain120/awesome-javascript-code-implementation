@@ -28,16 +28,16 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Build and Deploy Docs
-      uses: JamesIves/github-pages-deploy-action@master
-      run: |
-        npm install
-      npm run docs:build
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: .vuepress/dist
-        BUILD_SCRIPT: npm install && npm run build
+    # - name: Build and Deploy Docs
+    #   uses: JamesIves/github-pages-deploy-action@master
+    #   run: |
+    #     npm install
+    #     npm run docs:build
+    #   env:
+    #     ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+    #     BRANCH: gh-pages
+    #     FOLDER: .vuepress/dist
+    #     BUILD_SCRIPT: npm install && npm run build
 
     - name: Test
       run: |
