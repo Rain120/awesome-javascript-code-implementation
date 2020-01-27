@@ -19,7 +19,7 @@ const callExpect1 = {
   age: 23
 };
 
-test('bar call should callExpect1', () => {
+test('bar call should be callExpect1', () => {
   // @ts-ignore
   expect(bar._call(this, 'Rain120', 23)).toEqual(callExpect1);
 });

@@ -8,44 +8,44 @@
 import { _pow1, _pow2 } from '.';
 
 // _pow1
-test('_pow1(2, -4) should 1 / 2 ^ 4', () => {
+test('_pow1(2, -4) should be 1 / 2 ^ 4', () => {
   expect(_pow1(2, -4)).toEqual(Math.pow(2, -4));
 });
 
-test('_pow1(2, -1) should 1 / 2', () => {
+test('_pow1(2, -1) should be 1 / 2', () => {
   expect(_pow1(2, -1)).toEqual(Math.pow(2, -1));
 });
 
-test('_pow1(2, 0) should 1', () => {
+test('_pow1(2, 0) should be 1', () => {
   expect(_pow1(2, 0)).toEqual(1);
 });
 
-test('_pow1(2, 1) should 2', () => {
+test('_pow1(2, 1) should be 2', () => {
   expect(_pow1(2, 1)).toEqual(2);
 });
 
-test('_pow1(2, 4) should 16', () => {
+test('_pow1(2, 4) should be 16', () => {
   expect(_pow1(2, 4)).toEqual(16);
 });
 
 // _pow2
-test('_pow2(2, -4) should 1 / 2 ^ 4', () => {
+test('_pow2(2, -4) should be 1 / 2 ^ 4', () => {
   expect(_pow2(2, -4)).toEqual(Math.pow(2, -4));
 });
 
-test('_pow2(2, -1) should 1 / 2', () => {
+test('_pow2(2, -1) should be 1 / 2', () => {
   expect(_pow2(2, -1)).toEqual(Math.pow(2, -1));
 });
 
-test('_pow2(2, 0) should 1', () => {
+test('_pow2(2, 0) should be 1', () => {
   expect(_pow2(2, 0)).toEqual(1);
 });
 
-test('_pow2(2, 1) should 2', () => {
+test('_pow2(2, 1) should be 2', () => {
   expect(_pow2(2, 1)).toEqual(2);
 });
 
-test('_pow2(2, 4) should 16', () => {
+test('_pow2(2, 4) should be 16', () => {
   expect(_pow2(2, 4)).toEqual(16);
 });
 

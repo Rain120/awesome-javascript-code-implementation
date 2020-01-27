@@ -2,11 +2,11 @@
  * @Author: Rainy
  * @Date: 2019-11-14 19:25:01
  * @LastEditors  : Rainy
- * @LastEditTime : 2019-12-29 10:32:42
+ * @LastEditTime : 2020-01-27 14:04:18
  */
 
 import { _find } from '.';
 
-// test('_isArray([]) should true', () => {
+// test('_isArray([]) should be true', () => {
 //   expect(_isArray([])).toBe(true);
 // });

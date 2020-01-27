@@ -20,20 +20,20 @@ function profile_with_return(this: any, name: string, age: number): object {
 
 let pwor = _new(profile_without_return, 'rainy', 23);
 
-test(`_new profile_without_return should { name: 'rainy', age: 23 }`, () => {
+test(`_new profile_without_return should be { name: 'rainy', age: 23 }`, () => {
   expect(pwor).toEqual({ name: 'rainy', age: 23 });
 });
 
-test('pwor instanceof profile_with_return should true', () => {
+test('pwor instanceof profile_with_return should be true', () => {
   expect(pwor instanceof profile_without_return).toBe(true);
 });
 
 let pwr = _new(profile_with_return, 'rainy', 23);
 
-test('_new profile_with_return should {}', () => {
+test('_new profile_with_return should be {}', () => {
   expect(pwr).toEqual({});
 });
 
-test('pwr instanceof profile_with_return should false', () => {
+test('pwr instanceof profile_with_return should be false', () => {
   expect(pwr instanceof profile_with_return).toBe(false);
 });

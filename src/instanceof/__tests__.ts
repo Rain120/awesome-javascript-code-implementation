@@ -9,34 +9,34 @@ import { _instanceof } from '.';
 
 function Foo(): void {}
 
-test('Foo instanceof Foo should false', () => {
+test('Foo instanceof Foo should be false', () => {
   expect(_instanceof(Foo, Foo)).toBe(false);
 });
 
-test('Foo instanceof Object should true', () => {
+test('Foo instanceof Object should be true', () => {
   expect(_instanceof(Foo, Object)).toBe(true);
 });
 
-test('Object instanceof Object true', () => {
+test('Object instanceof Object should be true', () => {
   expect(_instanceof(Foo, Object)).toBe(true);
 });
 
-test('Function instanceof Function true', () => {
+test('Function instanceof Function should be true', () => {
   expect(_instanceof(Foo, Function)).toBe(true);
 });
 
-test('Function instanceof Object true', () => {
+test('Function instanceof Object should be true', () => {
   expect(_instanceof(Foo, Object)).toBe(true);
 });
 
-test('Foo instanceof Object true', () => {
+test('Foo instanceof Object should be true', () => {
   expect(_instanceof(Foo, Object)).toBe(true);
 });
 
-test('Foo instanceof Function true', () => {
+test('Foo instanceof Function should be true', () => {
   expect(_instanceof(Foo, Function)).toBe(true);
 });
 
-test('Foo instanceof Function true', () => {
+test('Foo instanceof Function should be true', () => {
   expect(_instanceof(Foo, Function)).toBe(true);
 });

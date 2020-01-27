@@ -7,10 +7,10 @@
 
 import { factorial, factorialRecursive } from '.';
 
-test('factorial(5) should 120', () => {
+test('factorial(5) should be 120', () => {
   expect(factorial(5)).toEqual(120);
 });
 
-test('factorialRecursive(5) should 120', () => {
+test('factorialRecursive(5) should be 120', () => {
   expect(factorialRecursive(5)).toEqual(120);
 });
