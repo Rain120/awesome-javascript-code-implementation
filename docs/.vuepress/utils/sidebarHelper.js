@@ -8,6 +8,11 @@ const README_REG = /README/;
 const mapper = code => {
   return {
     'guide': '介绍',
+    'math': '数学',
+    'factorial': '阶乘',
+    'fibonacci': '斐波那契数列',
+    'gcd': '最大公约数',
+    'lcm': '最小公倍数',
   }[code];
 }
 

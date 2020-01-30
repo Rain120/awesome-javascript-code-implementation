@@ -4,9 +4,10 @@
 
 <div align="center">
 
-[![WATCH](https://img.shields.io/github/watchers/rain120/awesome-javascript-code-implementation?style=social)](https://github.com/Rain120/awesome-javascript-code-implementation/watchers) [![STAR](https://img.shields.io/github/stars/rain120/awesome-javascript-code-implementation?style=social)](https://github.com/Rain120/awesome-javascript-code-implementation/stargazers) [![FORK](https://img.shields.io/github/forks/rain120/awesome-javascript-code-implementation?style=social)](https://github.com/Rain120/awesome-javascript-code-implementation/network/members)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aa1cb15a-9a66-42df-ab3b-6cf8a607c9c4/deploy-status)](https://app.netlify.com/sites/awesome-javascript-code-implementation/deploys) [![STAR](https://img.shields.io/github/stars/rain120/awesome-javascript-code-implementation?style=social)](https://github.com/Rain120/awesome-javascript-code-implementation/stargazers) [![FORK](https://img.shields.io/github/forks/rain120/awesome-javascript-code-implementation?style=social)](https://github.com/Rain120/awesome-javascript-code-implementation/network/members)
 
-[![TEST](https://github.com/rain120/awesome-javascript-code-implementation/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/Rain120/awesome-javascript-code-implementation/actions) ![LANGUAGES](https://img.shields.io/github/languages/top/rain120/awesome-javascript-code-implementation?style=flat-square)
+<!-- [![TEST](https://github.com/rain120/awesome-javascript-code-implementation/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/Rain120/awesome-javascript-code-implementation/actions) -->
+![LANGUAGES](https://img.shields.io/github/languages/top/rain120/awesome-javascript-code-implementation?style=flat-square)
 [![VERSION](https://img.shields.io/github/package-json/v/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/blob/master/package.json) [![LICENSE](https://img.shields.io/github/license/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/blob/master/LICENSE) [![ISSUES](https://img.shields.io/github/issues/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/issues) [![COMMIT](https://img.shields.io/github/last-commit/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/commits/master)
 
 </div>
@@ -117,6 +118,10 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 - [ ] 实用工具库
 
   - [ ] Lodash
+
+    - [ ] Internal
+
+      - [x] BaseFindIndex
 
 - [ ] 函数式编程库
 
