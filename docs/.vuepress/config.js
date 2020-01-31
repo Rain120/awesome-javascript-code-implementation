@@ -37,10 +37,10 @@ module.exports = {
       anchor: {
         permalink: true,
       },
-      // toc: {
-      //   includeLevel: [1, 2],
-      // },
-      config: md => {
+      toc: {
+        includeLevel: [1, 2],
+      },
+      extendMarkdown: md => {
         md.use(require('markdown-it-task-lists'));
         md.use(require('markdown-it-imsize'), { autofill: true });
         md.set({ html: true });

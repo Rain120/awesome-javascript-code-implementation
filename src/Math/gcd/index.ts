@@ -2,9 +2,10 @@
  * @Author: Rainy
  * @Date: 2020-01-30 11:42:57
  * @LastEditors  : Rainy
- * @LastEditTime : 2020-01-30 14:18:01
+ * @LastEditTime : 2020-01-31 13:28:43
  */
 
+// the greatest common divisor
 export function gcd_enumeration(a: number, b: number): number {
   let gcd = 1;
 
@@ -35,20 +36,20 @@ export function gcd_sub_recursive(a: number, b: number): number {
   return a > b ? gcd_sub_recursive(a - b, b) : gcd_sub_recursive(a, b - a);
 }
 
-export function gcd_best(a: number, b: number): number {
+export function gcd_optimal(a: number, b: number): number {
   if (a === b) {
     return a;
   }
 
   if ((a & 1) === 0 && (b & 1) === 0) {
-    return gcd_best(a >> 1, b >> 1);
+    return gcd_optimal(a >> 1, b >> 1);
   } else if ((a & 1) === 0 && (b & 1) !== 0) {
-    return gcd_best(a >> 1, b);
+    return gcd_optimal(a >> 1, b);
   } else if ((a & 1) !== 0 && (b & 1) === 0) {
-    return gcd_best(a, b >> 1);
+    return gcd_optimal(a, b >> 1);
   } else {
     const max = Math.max(a, b);
     const min = Math.min(a, b);
-    return gcd_best(max - min, min);
+    return gcd_optimal(max - min, min);
   }
 }
