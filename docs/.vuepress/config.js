@@ -7,7 +7,7 @@ console.log(JSON.stringify(sidebarHelper()));
 
 module.exports = {
   // base: '/awesome-javascript-code-implementation/',
-  base: './',
+  base: '',
   title: "非常棒的 JavaScript 源码实现",
   description: '🤟🎮欢迎来到 JavaScript 源码实现 🎮🤟',
   port: 9527,
@@ -41,8 +41,10 @@ module.exports = {
       //   includeLevel: [1, 2],
       // },
       config: md => {
-        md.use(require('markdown-it-task-lists'))
-          .use(require('markdown-it-imsize'), { autofill: true })
+        md.use(require('markdown-it-task-lists'));
+        md.use(require('markdown-it-imsize'), { autofill: true });
+        md.set({ html: true });
+        md.use(require("markdown-it-katex"));
       }
     },
 
