@@ -16,7 +16,11 @@
 
 **Note**
 
-$$ gcm(a, b) * lcm(a, b) = |ab| $$
+$$ gcm(a, b) \times lcm(a, b) = |ab| $$
+
+### 实现代码
+
+<<< @/src/Math/gcd/index.ts
 
 ### 参考资料
 

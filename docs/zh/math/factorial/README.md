@@ -15,6 +15,12 @@ Eg:
 n! = 1 * 2 * ... * (n - 1)
 ```
 
+![fibonacci.png](@images/src/Math/fibonacci/images/fibonacci.png)
+
+### 实现代码
+
+<<< @/src/Math/factorial/index.ts
+
 ### 参考资料
 
 [阶乘 - wiki](https://zh.wikipedia.org/zh-cn/%E9%9A%8E%E4%B9%98)

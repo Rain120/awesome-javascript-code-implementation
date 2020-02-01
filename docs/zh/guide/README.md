@@ -12,7 +12,7 @@
 
 </div>
 
-## 😚 Welcome
+#### 😚 Welcome
 
 Welcome to the Awesome Javascript Code Implementation.
 
@@ -29,13 +29,15 @@ Welcome to the Awesome Javascript Code Implementation.
 
 #### 💻 Plans
 
-<img src="plans.svg">
+<img src="@images/plans.svg">
 
 [Xmind Download](plans.xmind)
 
 #### 🔨 Usage
 
-⌨️ To be Continue...
+⌨️
+
+[how-to-write-docs](docs/zh/how-to-write-docs/README.md)
 
 #### 🤝 Contributing ![PR](https://img.shields.io/badge/PRs-Welcome-orange?style=flat-square&logo=appveyor)
 

@@ -35,7 +35,9 @@ Welcome to the Awesome Javascript Code Implementation.
 
 #### 🔨 Usage
 
-⌨️ To be Continue...
+⌨️
+
+[how-to-write-docs](docs/zh/how-to-write-docs/README.md)
 
 #### 🤝 Contributing ![PR](https://img.shields.io/badge/PRs-Welcome-orange?style=flat-square&logo=appveyor)
 
