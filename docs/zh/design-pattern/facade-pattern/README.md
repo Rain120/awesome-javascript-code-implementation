@@ -1,0 +1,39 @@
+## 外观模式
+
+外观模式隐藏系统的复杂性，并向客户端提供了一个客户端可以访问系统的接口。它属于结构型模式，它向现有的系统添加一个接口，来隐藏系统的复杂性。
+
+## UML 类图
+
+### 传统的 Java 类图
+
+![facade-pattern.png](@images/src/design-pattern/facade-pattern/images/facade-pattern.png)
+
+## 作用
+
+降低访问复杂系统的内部子系统时的复杂度，简化客户端与之的接口。
+
+## 优缺点
+
+### 优点
+
+- 减少系统相互依赖
+
+- 提高灵活性
+
+- 提高了安全性
+
+### 缺点
+
+- 不符合开闭原则
+
+## 场景
+
+没找到合适的
+
+## 实现代码
+
+<<< @/src/design-pattern/facade-pattern/index.ts
+
+## 参考
+
+[外观模式](https://zh.wikipedia.org/wiki/%E5%A4%96%E8%A7%80%E6%A8%A1%E5%BC%8F)

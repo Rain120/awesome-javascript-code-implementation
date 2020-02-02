@@ -44,7 +44,6 @@ function helper({ dir, fPath }) {
 }
 
 function sidebarHelper(dir = filePath) {
-
   return syncDirPath(dir)
     .filter(fPath => !isFile({ fPath }) && !ignore.includes(fPath))
     .map((fPath, dirIndex) => {

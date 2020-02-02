@@ -12,38 +12,38 @@
 
 </div>
 
-#### 😚 Welcome
+## 😚 Welcome
 
 Welcome to the Awesome Javascript Code Implementation.
 
 [中文版本](zh-CN.md)
 
-#### 🎮 TL;DR
+## 🎮 TL;DR
 
 ⌨️ To be Continue...
 
-#### ✍ Why am I doing this?
+## ✍ Why am I doing this?
 
 - Learn **Typescript**, **Jest** etc.
 - Learning something about the **javascript code implementation**.
 
-#### 💻 Plans
+## 💻 Plans
 
 <img src="@images/plans.svg">
 
-[Xmind Download](plans.xmind)
+[Xmind Download](https://github.com/Rain120/awesome-javascript-code-implementation/raw/master/plans.xmind)
 
-#### 🔨 Usage
+## 🔨 Usage
 
 ⌨️
 
 [how-to-write-docs](docs/zh/how-to-write-docs/README.md)
 
-#### 🤝 Contributing ![PR](https://img.shields.io/badge/PRs-Welcome-orange?style=flat-square&logo=appveyor)
+## 🤝 Contributing ![PR](https://img.shields.io/badge/PRs-Welcome-orange?style=flat-square&logo=appveyor)
 
 We welcome all contributions. You can submit any ideas as [pull requests](https://github.com/Rain120/awesome-javascript-code-implementation/pulls) or as a GitHub [issue](https://github.com/Rain120/awesome-javascript-code-implementation/issues).
 
-#### 🔗 Links
+## 🔗 Links
 
 - [ ] Primitive
 
@@ -129,7 +129,7 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
   - [ ] Ramda
 
-#### 📰 References
+## 📰 References
 
 - Algorithms
   
@@ -145,7 +145,7 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
   [JS ArraySort Performance Analysis](https://dailc.github.io/jsfoundation-perfanalysis/html/performanceAnalysis/demo_performanceAnalysis_jsarraySort.html)
 
-#### 👨‍🏭 Author
+## 👨‍🏭 Author
 
 > Front-End development engineer, technology stack: React + Typescript + Mobx, also used Vue + Vuex for a while
 
@@ -153,7 +153,7 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 - [知乎](https://www.zhihu.com/people/yan-yang-nian-hua-120/activities)
 - [掘金](https://juejin.im/user/57c616496be3ff00584f54db)
 
-#### 📝 License
+## 📝 License
 
 [MIT](https://github.com/Rain120/awesome-javascript-code-implementation/blob/master/LICENSE)
 
