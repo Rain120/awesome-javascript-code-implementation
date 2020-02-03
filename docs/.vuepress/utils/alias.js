@@ -47,6 +47,21 @@ const alias = {
   'proxy-pattern': '代理模式',
   'observer-pattern': '观察者模式',
   'singleton-pattern': '单例模式',
+
+  // algorithm
+  'algorithm': '算法',
+  'binaryTree': '二叉树',
+  'sort': '排序',
+  'bubbleSort': '冒泡排序',
+  'bucketSort': '桶排序',
+  'countingSort': '计数排序',
+  'heapSort': '堆排序',
+  'insertionSort': '插入排序',
+  'mergeSort': '归并排序',
+  'quickSort': '快速排序',
+  'radixSort': '基数排序',
+  'selectionSort': '选择排序',
+  'shellSort': '希尔排序',
 };
 
 module.exports = {
