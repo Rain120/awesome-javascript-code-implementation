@@ -14,7 +14,7 @@
 
 ### 算法步骤
 
-![bucketSort](@images/src/algorithm/sort/bucketSort/images/bucketSort.gif)
+![bucketSort](~@images/src/algorithm/sort/bucketSort/images/bucketSort.gif)
 
 ## 实现代码
 

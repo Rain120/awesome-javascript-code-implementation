@@ -8,11 +8,11 @@
 
 ### 传统的 Java 类图
 
-![decorator-pattern.png](@images/src/design-pattern/decorator-pattern/images/decorator-pattern.png)
+![decorator-pattern.png](~@images/src/design-pattern/decorator-pattern/images/decorator-pattern.png)
 
 ### JavaScript 类图
 
-![js-decorator-pattern.png](@images/src/design-pattern/decorator-pattern/images/js-decorator-pattern.png)
+![js-decorator-pattern.png](~@images/src/design-pattern/decorator-pattern/images/js-decorator-pattern.png)
 
 ## 作用
 

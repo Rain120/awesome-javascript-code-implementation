@@ -9,11 +9,11 @@
 
 ## 传统的 Java 类图
 
-![iterator-pattern.png](@images/src/design-pattern/iterator-pattern/images/iterator-pattern.png)
+![iterator-pattern.png](~@images/src/design-pattern/iterator-pattern/images/iterator-pattern.png)
 
 ## JavaScript 类图
 
-![js-iterator-pattern.png](@images/src/design-pattern/iterator-pattern/images/js-iterator-pattern.png)
+![js-iterator-pattern.png](~@images/src/design-pattern/iterator-pattern/images/js-iterator-pattern.png)
 
 ## 作用
 

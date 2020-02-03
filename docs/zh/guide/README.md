@@ -29,7 +29,7 @@ Welcome to the Awesome Javascript Code Implementation.
 
 ## 💻 Plans
 
-<img src="@images/plans.svg">
+<img src="~@images/plans.svg">
 
 [Xmind Download](https://github.com/Rain120/awesome-javascript-code-implementation/raw/master/plans.xmind)
 

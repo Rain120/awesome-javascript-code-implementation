@@ -8,7 +8,7 @@
 
 在事件被触发 `wait` 秒后, 再去执行回调函数。如果 `wait`秒内该事件被重新触发, 则重新计时。结果就是将频繁触发的事件合并为一次, 且在最后执行。提供一个 `cancel` 方法取消延迟的函数调用。
 
-![debounce](@images/src/function/debounce/images/debounce.png)
+![debounce](~@images/src/function/debounce/images/debounce.png)
 
 ## 实现代码
 

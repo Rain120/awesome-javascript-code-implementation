@@ -37,16 +37,16 @@ module.exports = {
     ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
   ],
-  // configureWebpack: {
-  //   resolve: {
-  //     alias: {
-  //       '@images': path.join(__dirname, '../..'),
-  //     }
-  //   }
-  // },
-  chainWebpack:(config,isServer) =>{
-    config.resolve.alias.set('@alias',path.resolve(__dirname, '../../'))
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@images': path.join(__dirname, '../..'),
+      }
+    }
   },
+  // chainWebpack:(config,isServer) =>{
+  //   config.resolve.alias.set('@images',path.resolve(__dirname, '../../'))
+  // },
   locales: {
     '/': {
       lang: 'zh-CN', 

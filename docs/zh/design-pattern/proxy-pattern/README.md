@@ -6,11 +6,11 @@
 
 #### 传统的 Java 类图
 
-![proxy-pattern.png](@images/src/design-pattern/proxy-pattern/images/proxy-pattern.png)
+![proxy-pattern.png](~@images/src/design-pattern/proxy-pattern/images/proxy-pattern.png)
 
 #### JavaScript 类图
 
-![js-proxy-pattern.png](@images/src/design-pattern/proxy-pattern/images/js-proxy-pattern.png)
+![js-proxy-pattern.png](~@images/src/design-pattern/proxy-pattern/images/js-proxy-pattern.png)
 
 ## 作用
 

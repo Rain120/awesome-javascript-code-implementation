@@ -24,15 +24,15 @@ touch docs/zh/test/README.md
 
 ## 图片
 
-`@images`路径 `->` 根路径
+`~@images`路径 `->` 根路径
 
 ```md
-![images.png](@images/src/xxx)
+![images.png](~@images/src/xxx)
 ```
 
 `Eg:`
 
-![fibonacci.png](@images/src/Math/fibonacci/images/fibonacci.png)
+![fibonacci.png](~@images/src/Math/fibonacci/images/fibonacci.png)
 
 ## 类型定义
 

@@ -18,7 +18,7 @@
 
 ### 传统的 Java 类图
 
-![singleton-pattern.png](@images/src/design-pattern/singleton-pattern/images/singleton-pattern.png)
+![singleton-pattern.png](~@images/src/design-pattern/singleton-pattern/images/singleton-pattern.png)
 
 ## 场景
 

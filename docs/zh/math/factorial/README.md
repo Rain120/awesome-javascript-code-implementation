@@ -13,7 +13,7 @@ Eg:
 n! = 1 * 2 * ... * (n - 1)
 ```
 
-![fibonacci.png](@images/src/Math/fibonacci/images/fibonacci.png)
+![fibonacci.png](~@images/src/Math/fibonacci/images/fibonacci.png)
 
 ## 实现代码
 

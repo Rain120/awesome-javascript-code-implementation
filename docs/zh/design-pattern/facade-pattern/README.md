@@ -6,7 +6,7 @@
 
 ### 传统的 Java 类图
 
-![facade-pattern.png](@images/src/design-pattern/facade-pattern/images/facade-pattern.png)
+![facade-pattern.png](~@images/src/design-pattern/facade-pattern/images/facade-pattern.png)
 
 ## 作用
 

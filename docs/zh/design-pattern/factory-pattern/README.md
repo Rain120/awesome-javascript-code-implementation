@@ -6,11 +6,11 @@
 
 ### 传统的 Java 类图
 
-![factory-pattern.png](@images/src/design-pattern/factory-pattern/images/factory-pattern.png)
+![factory-pattern.png](~@images/src/design-pattern/factory-pattern/images/factory-pattern.png)
 
 ### JavaScript 类图
 
-![js-factory-pattern.png](@images/src/design-pattern/factory-pattern/images/js-factory-pattern.png)
+![js-factory-pattern.png](~@images/src/design-pattern/factory-pattern/images/js-factory-pattern.png)
 
 ## 作用
 

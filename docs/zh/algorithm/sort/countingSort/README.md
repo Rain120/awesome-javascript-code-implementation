@@ -4,7 +4,7 @@
 
 ### 算法步骤
 
-![countingSort](@images/src/algorithm/sort/countingSort/images/countingSort.gif)
+![countingSort](~@images/src/algorithm/sort/countingSort/images/countingSort.gif)
 
 ## 实现代码
 

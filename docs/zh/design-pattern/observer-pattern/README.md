@@ -10,11 +10,11 @@
 
 ### 传统的 Java 类图
 
-![observer-pattern.png](@images/src/design-pattern/observer-pattern/images/observer-pattern.png)
+![observer-pattern.png](~@images/src/design-pattern/observer-pattern/images/observer-pattern.png)
 
 ### JavaScript 类图
 
-![js-observer-pattern.png](@images/src/design-pattern/observer-pattern/images/js-observer-pattern.png)
+![js-observer-pattern.png](~@images/src/design-pattern/observer-pattern/images/js-observer-pattern.png)
 
 ## 作用
 

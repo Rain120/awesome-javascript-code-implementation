@@ -13,7 +13,7 @@
 - 将新元素插入到该位置后;
 - 重复步骤 `2~5`。
 
-![insertionSort](@images/src/algorithm/sort/insertionSort/images/insertionSort.gif)
+![insertionSort](~@images/src/algorithm/sort/insertionSort/images/insertionSort.gif)
 
 ## 实现代码
 

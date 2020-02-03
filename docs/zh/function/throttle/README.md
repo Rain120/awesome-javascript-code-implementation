@@ -8,7 +8,7 @@
 
 规定一个时间 `wait`, `wait` 秒内，将触发的事件合并为一次并执行。
 
-![throttle](@images/src/function/throttle/images/throttle.png)
+![throttle](~@images/src/function/throttle/images/throttle.png)
 
 ## 实现代码
 

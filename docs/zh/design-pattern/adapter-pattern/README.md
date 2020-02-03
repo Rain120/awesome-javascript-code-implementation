@@ -8,11 +8,11 @@
 
 ### 传统的 Java 类图
 
-![adapter-pattern.png](@images/src/design-pattern/adapter-pattern/images/adapter-pattern.png)
+![adapter-pattern.png](~@images/src/design-pattern/adapter-pattern/images/adapter-pattern.png)
 
 ### JavaScript 类图
 
-![js-adapter-pattern.png](@images/src/design-pattern/adapter-pattern/images/js-adapter-pattern.png)
+![js-adapter-pattern.png](~@images/src/design-pattern/adapter-pattern/images/js-adapter-pattern.png)
 
 ## 作用
 
