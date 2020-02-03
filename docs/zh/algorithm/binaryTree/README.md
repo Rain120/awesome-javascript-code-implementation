@@ -22,10 +22,10 @@
 
   - 一棵树的深度为 h, 最大层数为 k, 深度与最大层数相同, k=h;
   - 叶子数为 $2^h$;
-  - 第 k 层的结点数是: $2^{k−1}$;
-  - 总结点数是 $2^k−1$, 且总节点数一定是奇数。
+  - 第 k 层的结点数是: $2^{k-1}$;
+  - 总结点数是 $2^k-1$, 且总节点数一定是奇数。
 
-![full-binary-tree.png](@images/src/algorithm/binaryTree/images/full-binary-tree.png)
+![full.png](@images/src/algorithm/binaryTree/images/full.png)
 
 ### 完全二叉树
 
@@ -35,7 +35,7 @@
 
 - **Note:** **完全二叉树** 是效率很高的数据结构, 堆是一种完全二叉树或者近似完全二叉树, 所以效率极高, 像十分常用的排序算法、`Dijkstra` 算法、`Prim` 算法等都要用堆才能优化, 二叉排序树的效率也要借助平衡树来提高, 而平衡性基于完全二叉树。
 
-![complete-binary-tree.png](@images/src/algorithm/binaryTree/images/complete-binary-tree.png)
+![complete.png](@images/src/algorithm/binaryTree/images/complete.png)
 
 ## 实现代码
 
