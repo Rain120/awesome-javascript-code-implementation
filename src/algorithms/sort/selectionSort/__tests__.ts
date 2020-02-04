@@ -5,7 +5,7 @@
  * @LastEditTime: 2019-11-24 18:49:07
 */
 
-import { selectionSort } from '.';
+import { selectionSort } from '../selectionSort';
 import { BaseArrayMap } from 'types';
 
 const input: BaseArrayMap = [3, 2, 1, 2, 3, 21, 123, 312, 123, 11];

@@ -5,7 +5,7 @@
  * @LastEditTime: 2019-12-01 11:00:12
  */
 
-import { countingSort } from '.';
+import { countingSort } from '../countingSort';
 import { NumberArrayMap } from 'types';
 
 const input: NumberArrayMap = [3, 2, 1, 2, 3, 21, 123, 312, 123, 11];

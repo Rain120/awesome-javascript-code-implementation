@@ -5,7 +5,7 @@
  * @LastEditTime: 2019-12-01 11:54:20
  */
 
-import { BinaryTree } from '.';
+import { BinaryTree } from '../binaryTree';
 
 // How to test for a class ????
 

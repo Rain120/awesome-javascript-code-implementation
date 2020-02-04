@@ -5,7 +5,7 @@
  * @LastEditTime: 2019-12-01 10:59:47
  */
 
-import { mergeSort } from '.';
+import { mergeSort } from '../mergeSort';
 import { BaseArrayMap } from 'types';
 
 const input: BaseArrayMap = [3, 2, 1, 2, 3, 21, 123, 312, 123, 11];

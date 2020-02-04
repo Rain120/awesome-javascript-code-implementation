@@ -5,7 +5,7 @@
  * @LastEditTime : 2019-12-29 11:20:52
  */
 
-import { bucketSort } from '.';
+import { bucketSort } from '../radixSort';
 import { NumberArrayMap } from 'types';
 
 const input: NumberArrayMap = [3, 2, 1, 2, 3, 21, 123, 312, 123, 11];

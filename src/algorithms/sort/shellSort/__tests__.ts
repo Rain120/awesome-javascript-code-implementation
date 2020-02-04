@@ -5,7 +5,7 @@
  * @LastEditTime: 2019-12-01 10:51:21
  */
 
-import { shellSort } from '.';
+import { shellSort } from '../shellSort';
 import { NumberArrayMap } from 'types';
 
 const input: NumberArrayMap = [3, 2, 1, 2, 3, 21, 123, 312, 123, 11];

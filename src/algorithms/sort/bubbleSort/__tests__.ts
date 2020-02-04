@@ -1,11 +1,11 @@
 /*
  * @Author: Rainy
  * @Date: 2019-11-14 19:25:01
- * @LastEditors: Rainy
- * @LastEditTime: 2019-12-01 11:00:19
+ * @LastEditors  : Rainy
+ * @LastEditTime : 2020-02-04 17:09:35
  */
 
-import { bubbleSort } from '.';
+import { bubbleSort } from '../bubbleSort';
 import { BaseArrayMap } from 'types';
 
 const input: BaseArrayMap = [3, 2, 1, 2, 3, 21, 123, 312, 123, 11];

@@ -2,7 +2,7 @@
  * @Author: Rainy
  * @Date: 2020-01-31 11:42:43
  * @LastEditors  : Rainy
- * @LastEditTime : 2020-02-02 14:41:02
+ * @LastEditTime : 2020-02-04 17:08:33
  */
 
 const alias = {
@@ -48,8 +48,8 @@ const alias = {
   'observer-pattern': '观察者模式',
   'singleton-pattern': '单例模式',
 
-  // algorithm
-  'algorithm': '算法',
+  // algorithms
+  'algorithms': '算法',
   'binaryTree': '二叉树',
   'sort': '排序',
   'bubbleSort': '冒泡排序',

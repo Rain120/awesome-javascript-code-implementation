@@ -23,12 +23,12 @@ module.exports = [
       popupComponent: 'MySWUpdatePopup',
       updatePopup: {
         '/': {
-          message: "New content is available.",
-          buttonText: "Refresh"
+          message: "官人, 人家又有新货了, 快来玩呀",
+          buttonText: "我来啦"
         },
         '/zh/': {
-          message: "发现新内容可用",
-          buttonText: "刷新"
+          message: "官人, 人家又有新货了, 快来玩呀",
+          buttonText: "我来啦"
         }
       }
     }

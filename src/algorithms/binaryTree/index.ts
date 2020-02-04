@@ -1,13 +1,14 @@
 /*
  * @Author: Rainy
  * @Date: 2019-11-14 19:25:01
- * @LastEditors: Rainy
- * @LastEditTime: 2019-12-01 10:01:51
+ * @LastEditors  : Rainy
+ * @LastEditTime : 2020-02-04 17:10:36
  */
 
 import { WithParamsFunction } from 'types';
 
 type TreeReturn = BinaryTree | null;
+
 export class BinaryTree {
   key: any;
   left: any = null;
