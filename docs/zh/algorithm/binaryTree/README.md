@@ -35,14 +35,11 @@
 
 - **Note:** **完全二叉树** 是效率很高的数据结构, 堆是一种完全二叉树或者近似完全二叉树, 所以效率极高, 像十分常用的排序算法、`Dijkstra` 算法、`Prim` 算法等都要用堆才能优化, 二叉排序树的效率也要借助平衡树来提高, 而平衡性基于完全二叉树。
 
-<!-- ![complete-binary-tree.png](~@images/src/algorithm/binaryTree/images/complete-binary-tree.png) -->
-
-![fibonacci.png](~@images/src/Math/fibonacci/images/fibonacci.png)
+![complete-binary-tree](~@images/src/algorithm/binaryTree/images/complete-binary-tree.png)
 
 ## 实现代码
 
-<!-- <<< @/src/algorithm/binaryTree/index.ts -->
-<<< @/src/Array/isArray/index.ts
+<<< @/src/algorithm/binaryTree/index.ts
 
 ## 参考资料
 
