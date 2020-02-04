@@ -37,9 +37,12 @@
 
 <!-- ![complete-binary-tree.png](~@images/src/algorithm/binaryTree/images/complete-binary-tree.png) -->
 
+![fibonacci.png](~@images/src/Math/fibonacci/images/fibonacci.png)
+
 ## 实现代码
 
-<<< @/src/algorithm/binaryTree/index.ts
+<!-- <<< @/src/algorithm/binaryTree/index.ts -->
+<<< @/src/Array/isArray/index.ts
 
 ## 参考资料
 

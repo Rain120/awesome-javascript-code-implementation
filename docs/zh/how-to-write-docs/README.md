@@ -32,6 +32,10 @@ touch docs/zh/test/README.md
 
 `Eg:`
 
+```md
+![fibonacci.png](~@images/src/Math/fibonacci/images/fibonacci.png)
+```
+
 ![fibonacci.png](~@images/src/Math/fibonacci/images/fibonacci.png)
 
 ## 类型定义
