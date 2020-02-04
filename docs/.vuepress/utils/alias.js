@@ -2,7 +2,7 @@
  * @Author: Rainy
  * @Date: 2020-01-31 11:42:43
  * @LastEditors  : Rainy
- * @LastEditTime : 2020-02-04 17:08:33
+ * @LastEditTime : 2020-02-04 17:36:21
  */
 
 const alias = {
@@ -51,7 +51,9 @@ const alias = {
   // algorithms
   'algorithms': '算法',
   'binaryTree': '二叉树',
-  'sort': '排序',
+
+  // sort
+  'sort': '排序算法',
   'bubbleSort': '冒泡排序',
   'bucketSort': '桶排序',
   'countingSort': '计数排序',

@@ -5,5 +5,3 @@
 :::
 
 - [x] [二叉树](./binaryTree/README.md)
-
-- [x] [排序](./sort/README.md)

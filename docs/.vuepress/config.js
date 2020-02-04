@@ -17,7 +17,6 @@ docs.map(item => {
 });
 [sidebar[1], sidebar[0]] = [sidebar[0], sidebar[1]];
 
-
 module.exports = {
   // base: '/awesome-javascript-code-implementation/',
   base: '',
