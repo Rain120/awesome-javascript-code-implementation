@@ -12,7 +12,7 @@
 - 计数排序: 每个桶只存储单一键值;
 - 桶排序: 每个桶存储一定范围的数值;
 
-![radixSort](~@images/src/algorithm/sort/radixSort/images/radixSort.gif)
+<!-- ![radixSort](~@images/src/algorithm/sort/radixSort/images/radixSort.gif) -->
 
 ## 实现代码
 

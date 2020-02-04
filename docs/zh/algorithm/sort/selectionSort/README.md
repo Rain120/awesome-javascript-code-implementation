@@ -10,7 +10,7 @@
 
 - 重复第二步d, 直到所有元素均排序完毕。
 
-![selectionSort](~@images/src/algorithm/sort/selectionSort/images/selectionSort.gif)
+<!-- ![selectionSort](~@images/src/algorithm/sort/selectionSort/images/selectionSort.gif) -->
 
 ## 实现代码
 

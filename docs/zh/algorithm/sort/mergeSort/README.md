@@ -20,7 +20,7 @@
 
 - 将另一序列剩下的所有元素直接复制到合并序列尾。
 
-![mergeSort](~@images/src/algorithm/sort/mergeSort/images/mergeSort.gif)
+<!-- ![mergeSort](~@images/src/algorithm/sort/mergeSort/images/mergeSort.gif) -->
 
 ## 实现代码
 

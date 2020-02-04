@@ -18,7 +18,7 @@
 
 - 重复步骤 2, 直到堆的尺寸为 1。
 
-![heapSort](~@images/src/algorithm/sort/heapSort/images/heapSort.gif)
+<!-- ![heapSort](~@images/src/algorithm/sort/heapSort/images/heapSort.gif) -->
 
 ## 实现代码
 
