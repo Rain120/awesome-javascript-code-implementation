@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const filePath = path.join(__dirname, '../../zh');
-const ignore = ['images', '.vuepress'];
+const ignore = ['images', '.vuepress', '.DS_Store'];
 const README_REG = /README/;
 const { alias } = require('./alias');
 
@@ -21,7 +21,9 @@ function helper({ dir, fPath }) {
   const prefixPath = dir.split('docs')[1];
   const currentPath = path.join(dir, fPath);
 
-  const children = syncDirPath(currentPath).map((sub, index) => {
+  const children = syncDirPath(currentPath)
+    .filter(fPath => !ignore.includes(fPath))
+    .map((sub, index) => {
     const fsStats = fs.statSync(path.join(currentPath, sub));
 
     if (fsStats.isDirectory()) {

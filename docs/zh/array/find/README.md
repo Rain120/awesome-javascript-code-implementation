@@ -1,6 +1,6 @@
 > 为了不污染原生的 Array 对象, 实现通过 function 来实现
->
-> Eg:
+
+Eg:
 
 ```javascript
 // prototype
@@ -29,10 +29,6 @@ function (collection, predicate) {}
   - `Set k to k + 1`
 - `Return undefined`
 
-## 实现代码
-
-<<< @/src/Array/find/index.ts
-
 ## 参数
 
 - `predicate`
@@ -58,6 +54,10 @@ function (collection, predicate) {}
 ## 返回值
 
 返回数组中满足提供的测试函数的第一个元素的值. 否则返回 `undefined`
+
+## 实现代码
+
+<<< @/src/Array/find/index.ts
 
 ## 参考
 

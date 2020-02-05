@@ -10,6 +10,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --passWithNoTests",
+    "coverall": "cat coverage/lcov.info | coveralls",
+    "testing": "npm run test && npm run coverall",
     "coveralls": "jest --coverage",
     "test:watchAll": "jest --coverage --watchAll",
     "lint-staged": "lint-staged",
@@ -35,7 +37,7 @@
   "homepage": "https://github.com/Rain120/awesome-javascript-code-implementation#readme",
   "lint-staged": {
     "{src}/**/**.ts": [
-      "npm run test",
+      "npm run testing",
       "npm run lint-staged:ts",
       "git add"
     ]

@@ -4,11 +4,16 @@
 
 <div align="center">
 
-[![WATCH](https://img.shields.io/github/watchers/rain120/awesome-javascript-code-implementation?style=social)](https://github.com/Rain120/awesome-javascript-code-implementation/watchers)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/aa1cb15a-9a66-42df-ab3b-6cf8a607c9c4/deploy-status)](https://app.netlify.com/sites/awesome-javascript-code-implementation/deploys) [![STAR](https://img.shields.io/github/stars/rain120/awesome-javascript-code-implementation?style=social)](https://github.com/Rain120/awesome-javascript-code-implementation/stargazers) [![FORK](https://img.shields.io/github/forks/rain120/awesome-javascript-code-implementation?style=social)](https://github.com/Rain120/awesome-javascript-code-implementation/network/members)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aa1cb15a-9a66-42df-ab3b-6cf8a607c9c4/deploy-status)](https://app.netlify.com/sites/awesome-javascript-code-implementation/deploys) [![Coverage Status](https://coveralls.io/repos/github/Rain120/awesome-javascript-code-implementation/badge.svg?branch=master)](https://coveralls.io/github/Rain120/awesome-javascript-code-implementation?branch=master)
 
+[![GitHub watchers](https://img.shields.io/github/watchers/rain120/awesome-javascript-code-implementation?style=social)](https://github.com/Rain120/awesome-javascript-code-implementation/watchers)
+[![STAR](https://img.shields.io/github/stars/rain120/awesome-javascript-code-implementation?style=social)](https://github.com/Rain120/awesome-javascript-code-implementation/stargazers) [![FORK](https://img.shields.io/github/forks/rain120/awesome-javascript-code-implementation?style=social)](https://github.com/Rain120/awesome-javascript-code-implementation/network/members)
+
+[![ISSUES](https://img.shields.io/github/issues/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/issues) [![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/pulls) [![COMMIT](https://img.shields.io/github/last-commit/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/commits/master)
+
+<!-- [![TEST](https://github.com/rain120/awesome-javascript-code-implementation/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/Rain120/awesome-javascript-code-implementation/actions) -->
 ![LANGUAGES](https://img.shields.io/github/languages/top/rain120/awesome-javascript-code-implementation?style=flat-square)
-[![VERSION](https://img.shields.io/github/package-json/v/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/blob/master/package.json) [![LICENSE](https://img.shields.io/github/license/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/blob/master/LICENSE) [![ISSUES](https://img.shields.io/github/issues/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/issues) [![COMMIT](https://img.shields.io/github/last-commit/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/commits/master)
+[![VERSION](https://img.shields.io/github/package-json/v/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/blob/master/package.json) [![LICENSE](https://img.shields.io/github/license/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/blob/master/LICENSE)
 
 </div>
 
@@ -145,6 +150,10 @@
 
   [JS 数组排序性能分析](https://dailc.github.io/jsfoundation-perfanalysis/html/performanceAnalysis/demo_performanceAnalysis_jsarraySort.html)
 
+- MDN
+
+  [ECMA 262](https://tc39.es/ecma262/)
+
 #### 👨‍🏭 作者
 
 > 前端开发小菜鸡, 技术栈是 React + Typescript + Mobx, 也用过一点 Vue + Vuex.
@@ -158,3 +167,7 @@
 [MIT](https://github.com/Rain120/awesome-javascript-code-implementation/blob/master/LICENSE)
 
 Copyright © 2019-present [Rain120](https://github.com/Rain120).
+
+#### ☕ 请我喝杯咖啡或茶
+
+![wechat-zhifubao-pay.png](./wechat-zhifubao-pay.png)
