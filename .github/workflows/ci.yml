@@ -23,7 +23,7 @@ jobs:
           npm install
           # npm run build --if-present
           # npm run deploy
-          npm run testing
+          npm run test
           npm run changelog
       
       - name: Coveralls Parallel
