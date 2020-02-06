@@ -2,7 +2,7 @@
  * @Author: Rainy
  * @Date: 2020-01-30 11:42:57
  * @LastEditors  : Rainy
- * @LastEditTime : 2020-02-05 18:32:21
+ * @LastEditTime : 2020-02-06 16:22:26
  */
 
 import { lcm } from '.';

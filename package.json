@@ -37,7 +37,6 @@
   "homepage": "https://github.com/Rain120/awesome-javascript-code-implementation#readme",
   "lint-staged": {
     "{src}/**/**.ts": [
-      "npm run testing",
       "npm run lint-staged:ts",
       "git add"
     ]
@@ -45,7 +44,7 @@
   "husky": {
     "hooks": {
       "pre-commit": [
-        "lint-staged"
+        "npm run changelog & npm run testing && lint-staged"
       ],
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }

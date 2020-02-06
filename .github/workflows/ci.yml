@@ -24,20 +24,20 @@ jobs:
           # npm run build --if-present
           # npm run deploy
           npm run test
-          npm run changelog
+          # npm run changelog
       
-      - name: Coveralls Parallel
-        uses: coverallsapp/github-action@master
-        with:
-          github-token: ${{ secrets.ACCESS_TOKEN }}
-          parallel: true
-          path-to-lcov: ./coverage/lcov.info
+      # - name: Coveralls Parallel
+      #   uses: coverallsapp/github-action@master
+      #   with:
+      #     github-token: ${{ secrets.ACCESS_TOKEN }}
+      #     parallel: true
+      #     path-to-lcov: ./coverage/lcov.info
     
-      - name: Coveralls Finished
-        uses: coverallsapp/github-action@master
-        with:
-          github-token: ${{ secrets.ACCESS_TOKEN }}
-          parallel-finished: true
+      # - name: Coveralls Finished
+      #   uses: coverallsapp/github-action@master
+      #   with:
+      #     github-token: ${{ secrets.ACCESS_TOKEN }}
+      #     parallel-finished: true
 
       # - name: Build and Deploy Docs
       #   uses: JamesIves/github-pages-deploy-action@master
