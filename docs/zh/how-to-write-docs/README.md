@@ -1,4 +1,4 @@
-## 如何写文档?
+## 如何写文档? <Badge text='Important' type='warning'/>
 
 ::: tip
 文档的规范, 以及如何方便快捷的书写 ✍️ 文档
@@ -41,13 +41,13 @@ touch docs/zh/test/README.md
 ## 类型定义
 
 ::: warning
-请在 `src/types`中增加新的类型文件后(默认是在 `index.d.ts`中定义, 此处已经导入好了), 在 [utils](docs/zh/types/README.md) 中导入代码块, 具体导入代码详见👇👇[导入代码块](#导入代码块)。
+请在 `src/types`中增加新的类型文件后(默认是在 `index.d.ts`中定义, 此处已经导入好了), 在 [utils](docs/zh/types/README.md) 中导入代码块, 具体导入代码详见 👇👇[导入代码块](#导入代码块)。
 :::
 
 ## 工具函数定义
 
 ::: warning
-请在 `src/utils`中增加新的工具函数文件后, 在 [utils](docs/zh/utils/README.md) 中导入代码块, 具体导入代码详见👇[导入代码块](#导入代码块)。
+请在 `src/utils`中增加新的工具函数文件后, 在 [utils](docs/zh/utils/README.md) 中导入代码块, 具体导入代码详见 👇[导入代码块](#导入代码块)。
 :::
 
 ## 导入代码块
@@ -57,9 +57,11 @@ touch docs/zh/test/README.md
 ```md
 <<< @/filepath
 ```
+
 **Note:** `filepath`是你文档的路径
 
 `Eg:`
+
 ```md
 <<< @/src/Math/factorial/index.ts
 ```
@@ -83,6 +85,26 @@ y=\begin{cases}
 x,\quad x>0
 \end{cases}
 $$
+
+## Badge 徽章
+
+- **Props:**
+
+  - `text - string`
+
+  - `type - string`, 可选值: `'tip' | 'warning' | 'error'`, 默认值是: `'tip'`
+
+  - `vertical - string`, 可选值: `'top' | 'middle'`, 默认值是: `'top'`
+
+- **Usage:**
+
+你可以在标题中, 使用这个组件来为某些 API 添加一些状态：
+
+```md
+Badge <Badge text='默认主题' /> <Badge text='warning' type='warning'/> <Badge text='error' type='error'/>
+```
+
+Badge <Badge text='默认主题' /> <Badge text='warning' type='warning'/> <Badge text='error' type='error'/>
 
 ## 自定义容器
 

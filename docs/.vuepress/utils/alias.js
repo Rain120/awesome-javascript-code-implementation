@@ -2,12 +2,12 @@
  * @Author: Rainy
  * @Date: 2020-01-31 11:42:43
  * @LastEditors  : Rainy
- * @LastEditTime : 2020-02-04 17:36:21
+ * @LastEditTime : 2020-02-07 12:55:08
  */
 
 const alias = {
   'guide': '介绍',
-  'how-to-write-docs': '如何写文档?',
+  'how-to-write-docs': '如何写文档? ',
 
   // math
   'math': '数学',

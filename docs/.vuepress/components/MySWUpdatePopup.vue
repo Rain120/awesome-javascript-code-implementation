@@ -21,7 +21,7 @@ export default {
 @keyframes drop {
   0% {
     top: -20px;
-    oapcity: 0;
+    opacity: 0;
   }
 
   100% {
@@ -52,8 +52,6 @@ export default {
 
 .my-sw-update-popup button {
   background-color: #4db6ac;
-  -moz-border-radius: 28px;
-  -webkit-border-radius: 28px;
   border-radius: 28px;
   border: 1px solid #18ab29;
   display: inline-block;
@@ -62,7 +60,7 @@ export default {
   font-family: Arial;
   font-size: 16px;
   margin: 12px 50px;
-  padding:13px 30px;
+  padding: 13px 30px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #2f6627;
 }

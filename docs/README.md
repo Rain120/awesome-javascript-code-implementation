@@ -1,7 +1,7 @@
 ---
 home: true
 activity: true
-heroImage: /img/fe.png
+heroImage: /images/fe.png
 actionText: 快速上手 👉
 actionLink: /zh/guide/
 
