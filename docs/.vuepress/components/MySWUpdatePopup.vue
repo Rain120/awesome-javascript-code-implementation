@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import SWUpdatePopup from '@vuepress/plugin-pwa/lib/SWUpdatePopup.vue'
+import SWUpdatePopup from '@vuepress/plugin-pwa/lib/SWUpdatePopup'
 
 export default {
   components: { SWUpdatePopup }
@@ -18,30 +18,16 @@ export default {
 </script>
 
 <style>
-@keyframes drop {
-  0% {
-    top: -20px;
-    opacity: 0;
-  }
-
-  100% {
-    top: 20px;
-    opacity: 1;
-  }
-}
-
 .my-sw-update-popup {
   text-align: right;
   position: fixed;
   bottom: 20px;
   right: 20px;
   background-color: #fff;
-  color:#6a8bad;
   font-size: 19px;
   padding: 15px;
   margin: 0px 15px;
   box-shadow: 0 4px 10px rgba(17, 255, 106, 0.2);
-  animation: drop 2s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
 }
 
 .my-sw-update-popup:hover {
@@ -57,7 +43,6 @@ export default {
   display: inline-block;
   cursor: pointer;
   color: #fff;
-  font-family: Arial;
   font-size: 16px;
   margin: 12px 50px;
   padding: 13px 30px;

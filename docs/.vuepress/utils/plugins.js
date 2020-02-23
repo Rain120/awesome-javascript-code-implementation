@@ -17,6 +17,22 @@ module.exports = [
       }
     }
   ],
+  [
+    'vuepress-plugin-awesome-gitalk',
+    {
+      home: false,
+      gitalk: {
+        clientID: '58efa883d352424befd3',
+        clientSecret: 'faf0e2d7ff9355b3692d605d698f7abcbbd43388',
+        repo: 'awesome-javascript-code-implementation',
+        owner: 'Rain120',
+        admin: ['Rain120'],
+        ignorePaths: [],
+        distractionFreeMode: true,
+        language: 'zh-CN',
+      }
+    }
+  ],
   ['@vuepress/pwa',
     {
       serviceWorker: true,
