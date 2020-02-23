@@ -10,9 +10,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --passWithNoTests",
-    "coverall": "cat coverage/lcov.info | coveralls",
-    "testing": "npm run test && npm run coverall",
-    "coveralls": "jest --coverage",
+    "coveralls": "cat coverage/lcov.info | coveralls",
+    "testing": "npm run test && npm run coveralls",
+    "coverage": "jest --coverage",
     "test:watchAll": "jest --coverage --watchAll",
     "lint-staged": "lint-staged",
     "lint-staged:ts": "tslint -c ./tslint.json src/**/**.ts",
@@ -69,6 +69,7 @@
     "ts-node": "^8.5.0",
     "tslint": "^5.20.1",
     "typescript": "^3.7.2",
-    "vuepress": "^1.2.0"
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-awesome-gitalk": "^0.0.3"
   }
 }
