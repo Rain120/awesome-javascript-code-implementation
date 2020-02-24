@@ -23,6 +23,12 @@ Welcome to the Awesome Javascript Code Implementation.
 
 [中文版本](zh-CN.md)
 
+Document Link:
+
+- [1](https://rain120.github.io/awesome-javascript-code-implementation/)
+
+- [2](https://awesome-javascript-code-implementation.netlify.com/)
+
 #### 🎮 TL;DR
 
 ⌨️ To be Continue...
