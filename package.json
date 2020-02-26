@@ -43,9 +43,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": [
-        "npm run changelog & npm run testing && lint-staged"
-      ],
+      "pre-commit": "npm run changelog && npm run testing && git add . && lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
@@ -70,6 +68,6 @@
     "tslint": "^5.20.1",
     "typescript": "^3.7.2",
     "vuepress": "^1.2.0",
-    "vuepress-plugin-awesome-gitalk": "^0.0.3"
+    "vuepress-plugin-awesome-gitalk": "^0.0.4"
   }
 }
