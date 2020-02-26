@@ -25,9 +25,9 @@
 
 文档地址:
 
-- [1](https://rain120.github.io/awesome-javascript-code-implementation/)
+- [github.io](https://rain120.github.io/awesome-javascript-code-implementation/)
 
-- [2](https://awesome-javascript-code-implementation.netlify.com/)
+- [netlify](https://awesome-javascript-code-implementation.netlify.com/)
 
 #### 🎮 TL;DR
 

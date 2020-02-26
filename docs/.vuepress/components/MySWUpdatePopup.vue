@@ -4,7 +4,7 @@
       v-if="enabled"
       class="my-sw-update-popup">
       {{ message }}<br>
-      <button @click="reload">{{ buttonText }}</button>
+      <button class="pulse" @click="reload">{{ buttonText }}</button>
     </div>
   </SWUpdatePopup>
 </template>
@@ -19,14 +19,15 @@ export default {
 
 <style>
 .my-sw-update-popup {
-  text-align: right;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #fff;
-  font-size: 19px;
-  padding: 15px;
-  margin: 0px 15px;
+  right: 1em;
+  bottom: 1em;
+  padding: 1em;
+  border: 1px solid #3eaf7c;
+  border-radius: 3px;
+  background: #fff;
+  text-align: center;
+  z-index: 2;
   box-shadow: 0 4px 10px rgba(17, 255, 106, 0.2);
 }
 
@@ -50,8 +51,32 @@ export default {
   text-shadow: 0px 1px 0px #2f6627;
 }
 
-.my-sw-update-popup button:hover {
-  background-color: #3eaf7c;
+button {
+  background: none;
+  border-radius: 40px;
+  display: inline-block;
+  cursor: pointer;
+  border: 2px solid;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  color: #ef6eae;
+  transition: 0.25s;
+}
+
+button:hover, button:focus { 
+  border-color: #ef8f6e;
+}
+
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 #ef8f6e; }
 }
 
 </style>
