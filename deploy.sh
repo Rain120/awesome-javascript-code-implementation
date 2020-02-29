@@ -2,7 +2,7 @@
 
 set -e
 
-npm run docs:build
+npm run docs:build '/awesome-javascript-code-implementation/'
 
 cd docs/.vuepress/dist
 

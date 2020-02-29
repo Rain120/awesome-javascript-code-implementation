@@ -13,6 +13,21 @@ module.exports = [
   //   ]
   // },
   {
+    text: 'Hot Repo',
+    items: [
+      {
+        text: 'qq-music-api',
+        link: 'https://rain120.github.io/qq-music-api/',
+        target: '_blank'
+      },
+      {
+        text: 'more',
+        link: 'https://github.com/rain120',
+        target: '_blank'
+      },
+    ]
+  },
+  {
     text: 'Github',
     link: 'https://github.com/rain120',
     target: '_blank'
