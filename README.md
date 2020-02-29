@@ -50,7 +50,9 @@ Document Link:
 
 [how-to-write-docs](docs/zh/how-to-write-docs/README.md)
 
-#### 🤝 Contributing ![PR](https://img.shields.io/badge/PRs-Welcome-orange?style=flat-square&logo=appveyor)
+#### 🤝 Contributing
+
+![PR](https://img.shields.io/badge/PRs-Welcome-orange?style=flat-square&logo=appveyor)
 
 We welcome all contributions. You can submit any ideas as [pull requests](https://github.com/Rain120/awesome-javascript-code-implementation/pulls) or as a GitHub [issue](https://github.com/Rain120/awesome-javascript-code-implementation/issues).
 

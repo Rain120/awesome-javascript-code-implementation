@@ -16,6 +16,32 @@
 touch docs/zh/test/README.md
 ```
 
+`Eg: File Path`
+
+```sh
+docs/zh
+├── algorithms
+│   ├── README.md
+│   └── binaryTree
+│       └── README.md
+├── array
+│   ├── README.md
+│   ├── arrayMove
+│   │   └── README.md
+│   ├── find
+│   │   └── README.md
+│   └── isArray
+│       └── README.md
+├── design-pattern
+│   ├── README.md
+│   ├── adapter-pattern
+│   │   └── README.md
+│   ├── decorator-pattern
+│   │   └── README.md
+│   ├── facade-pattern
+│   │   └── README.md
+```
+
 ## 配置别名
 
 我们不支持中文名文件夹, 所以你需要给文件名配置别名, 只需要在`docs/.vuepress/utils/alias.js`中配置 `key-value`值即可

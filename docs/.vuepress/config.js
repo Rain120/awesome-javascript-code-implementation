@@ -17,9 +17,13 @@ docs.map(item => {
 });
 [sidebar[1], sidebar[0]] = [sidebar[0], sidebar[1]];
 
+// git pages base project name -> /awesome-javascript-code-implementation/, netlify base: ''
+const ARGV = (process.argv || []).slice(-1)[0];
+const base = ARGV !== 'docs' ? ARGV : '';
+
 module.exports = {
   // base: '/awesome-javascript-code-implementation/',
-  base: '',
+  base,
   title: '非常棒的JavaScript源码实现',
   description: '🤟🎮欢迎来到 JavaScript 源码实现 🎮🤟',
   port: 9527,
@@ -80,15 +84,15 @@ module.exports = {
     evergreen: true,
 
     // gittalk
-    comment: {
-      clientID: '58efa883d352424befd3',
-      clientSecret: 'faf0e2d7ff9355b3692d605d698f7abcbbd43388',
-      repo: 'https://github.com/Rain120/awesome-javascript-code-implementation',
-      owner: 'rain120',
-      admin: ['rain120'],
-      perPage: 20,
-      distractionFreeMode: false  // Facebook-like distraction free mode
-    },
+    // comment: {
+    //   clientID: '58efa883d352424befd3',
+    //   clientSecret: 'faf0e2d7ff9355b3692d605d698f7abcbbd43388',
+    //   repo: 'awesome-javascript-code-implementation',
+    //   owner: 'rain120',
+    //   admin: ['rain120'],
+    //   perPage: 20,
+    //   distractionFreeMode: false  // Facebook-like distraction free mode
+    // },
       
     // search
     search: true,

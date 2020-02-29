@@ -1,4 +1,4 @@
-# 1.0.0 (2020-02-26)
+# 1.0.0 (2020-02-29)
 
 
 ### Bug Fixes
@@ -9,7 +9,7 @@
 * gitalk cannot login; feat: manifest ([ee9e237](https://github.com/Rain120/awesome-javascript-code-implementation/commit/ee9e237314451244a13c6c4c13f8a119572b6ecb))
 * gitalk ignore path for guide; update popup style; README docs link ([0335865](https://github.com/Rain120/awesome-javascript-code-implementation/commit/0335865ca2d0ef8407c9fcf5c0342c42e100b79f))
 * gitalk not found ([747e117](https://github.com/Rain120/awesome-javascript-code-implementation/commit/747e117b24042b20aa2c249e0415cd1eca6da80e))
-* husky pre-commit ([9a646da](https://github.com/Rain120/awesome-javascript-code-implementation/commit/9a646da2a4fe3668c35429e755ef513b0dcffc90))
+* husky pre-commit ([06f1144](https://github.com/Rain120/awesome-javascript-code-implementation/commit/06f1144d4c80888dbe6da76d28d5f6f0fff55358))
 * math docs menu ([3958b99](https://github.com/Rain120/awesome-javascript-code-implementation/commit/3958b99b27170aa419b4b8983d7cf62cbae6b724))
 * netlify deploy bug ([f1830e9](https://github.com/Rain120/awesome-javascript-code-implementation/commit/f1830e9a07d27b4d6b9c3c67e13272e9064bb322))
 * readme selected; package.json husky add test ([b228b61](https://github.com/Rain120/awesome-javascript-code-implementation/commit/b228b6194832f909c0b3c7a0c38843bab3b7c63d))
