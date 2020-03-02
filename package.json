@@ -17,6 +17,9 @@
     "lint-staged": "lint-staged",
     "lint-staged:ts": "tslint -c ./tslint.json src/**/**.ts",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "plop": "./node_modules/.bin/plop",
+    "template": "npm run plop template",
+    "docs": "npm run plop docs",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh"
@@ -63,6 +66,7 @@
     "markdown-it-katex": "^2.0.3",
     "markdown-it-task-lists": "^2.1.1",
     "moment": "^2.24.0",
+    "plop": "^2.5.4",
     "ts-jest": "^24.1.0",
     "ts-node": "^8.5.0",
     "tslint": "^5.20.1",

@@ -30,6 +30,7 @@ module.exports = {
   coveragePathIgnorePatterns: [
     "<rootDir>/node_modules/",
     "<rootDir>/docs/",
+    "<rootDir>/plop-templates/",
   ],
 
   // A list of reporter names that Jest uses when writing coverage reports
