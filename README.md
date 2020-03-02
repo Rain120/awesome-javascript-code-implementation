@@ -48,6 +48,17 @@ Document Link:
 
 ⌨️
 
+生成 `code` 模板
+```sh
+npm run template
+```
+
+生成 `docs` 模板
+
+```sh
+npm run docs
+```
+
 [how-to-write-docs](docs/zh/how-to-write-docs/README.md)
 
 #### 🤝 Contributing

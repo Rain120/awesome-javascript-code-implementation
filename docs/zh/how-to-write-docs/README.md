@@ -13,6 +13,10 @@
 :::
 
 ```sh
+npm run docs
+
+# or
+
 touch docs/zh/test/README.md
 ```
 

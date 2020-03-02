@@ -50,11 +50,14 @@ module.exports = {
   // chainWebpack:(config,isServer) =>{
   //   config.resolve.alias.set('@images',path.resolve(__dirname, '../../'))
   // },
-  locales: {
-    '/': {
-      lang: 'zh-CN', 
-    }
-  },
+  // locales: {
+  //   '/zh': {
+  //     lang: 'zh-CN', 
+  //   },
+  //   '/en': {
+  //     lang: 'en-US', 
+  //   }
+  // },
   // markdown
   markdown: {
     lineNumbers: true,

@@ -1,4 +1,4 @@
-# 1.0.0 (2020-02-29)
+# 1.0.0 (2020-03-02)
 
 
 ### Bug Fixes
@@ -42,6 +42,7 @@
 * math -> binary ([7158a67](https://github.com/Rain120/awesome-javascript-code-implementation/commit/7158a672269f54928a8ee549a279790adaf650cc))
 * math gcm; update vuepress doc ([066bf3c](https://github.com/Rain120/awesome-javascript-code-implementation/commit/066bf3cafa0766879354ebefa0005d1c629eaa5f))
 * math pow; fix: ci.yml ([89be97b](https://github.com/Rain120/awesome-javascript-code-implementation/commit/89be97bdd3d4be266212d72dca45732e70e7a41a))
+* navbar add hot repo; auto deploy to gitpages and netlify; update write docs ([7e6184d](https://github.com/Rain120/awesome-javascript-code-implementation/commit/7e6184d892c3070c6dd5d63c39ac048bdb7658ec))
 * new ([e1b1495](https://github.com/Rain120/awesome-javascript-code-implementation/commit/e1b1495c204bb8936a45356eaa8b7266020ba055))
 * object.is ([437d64a](https://github.com/Rain120/awesome-javascript-code-implementation/commit/437d64a8f5fb0ad357cadc41b11d68286aa81b3e))
 * observer pattern ([77c78f7](https://github.com/Rain120/awesome-javascript-code-implementation/commit/77c78f7359161c0e64b3143e3a66fea3f5d4eb46))
@@ -53,10 +54,10 @@
 * update netlify status ([013b5ca](https://github.com/Rain120/awesome-javascript-code-implementation/commit/013b5ca5847873adabbff93a89daa41500ccf153))
 * update readme for plans ([b427b96](https://github.com/Rain120/awesome-javascript-code-implementation/commit/b427b9667cc97c77df75ef0af56eb84b6b4c3ba6))
 * update test.yml -> ci.yml and set command ([43b96b6](https://github.com/Rain120/awesome-javascript-code-implementation/commit/43b96b63fc2788a5ea37fa7567c6a6dced4b875f))
-* update xmind ([71317c6](https://github.com/Rain120/awesome-javascript-code-implementation/commit/71317c67376bc8196f80e25391adfdc9b2496380))
 * update xmind ([4256758](https://github.com/Rain120/awesome-javascript-code-implementation/commit/4256758c5fe0a036ce3ececc43f848e48964d7a0))
-* update xmind ([cb23933](https://github.com/Rain120/awesome-javascript-code-implementation/commit/cb23933f46152c59a7b08f84d7355b35bba25002))
 * update xmind ([408ca68](https://github.com/Rain120/awesome-javascript-code-implementation/commit/408ca685142dc425e90be64a284016d57d580893))
+* update xmind ([71317c6](https://github.com/Rain120/awesome-javascript-code-implementation/commit/71317c67376bc8196f80e25391adfdc9b2496380))
+* update xmind ([cb23933](https://github.com/Rain120/awesome-javascript-code-implementation/commit/cb23933f46152c59a7b08f84d7355b35bba25002))
 * update: plans; fix: readme bug ([d44e559](https://github.com/Rain120/awesome-javascript-code-implementation/commit/d44e559def7834fcccbb19797a1d29bf5cc4e5b7))
 * vuepress docs v1.0.0 ([785caeb](https://github.com/Rain120/awesome-javascript-code-implementation/commit/785caeb41beeff7a0f53646fc952d1c89ebb61d5))
 * zh-cn and plans ([62b460f](https://github.com/Rain120/awesome-javascript-code-implementation/commit/62b460f200a2f76ee36cd3cae94d1660ed4ff3c2))
