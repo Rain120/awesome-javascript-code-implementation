@@ -2,7 +2,7 @@
  * @Author: Rainy
  * @Date: 2020-03-01 19:29:27
  * @LastEditors: Rainy
- * @LastEditTime: 2020-03-03 09:55:34
+ * @LastEditTime: 2020-03-03 10:25:16
  */
 
 module.exports = plop => {
@@ -76,7 +76,7 @@ module.exports = plop => {
       ];
     }
   });
-  plop.setGenerator('template-docs', {
+  plop.setGenerator('model-template-docs', {
     description: 'Create root template and zh docs',
     prompts: [
       {

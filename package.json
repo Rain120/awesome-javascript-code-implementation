@@ -20,7 +20,7 @@
     "plop": "./node_modules/.bin/plop",
     "template": "npm run plop template",
     "docs": "npm run plop docs",
-    "template-docs": "npm run plop template-docs",
+    "template-docs": "npm run plop model-template-docs",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh"
