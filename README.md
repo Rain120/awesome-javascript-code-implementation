@@ -59,6 +59,11 @@ npm run template
 npm run docs
 ```
 
+同时生成 `code` `docs`模板
+```
+npm run template-docs
+```
+
 [how-to-write-docs](docs/zh/how-to-write-docs/README.md)
 
 #### 🤝 Contributing

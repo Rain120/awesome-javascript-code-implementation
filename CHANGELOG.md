@@ -1,4 +1,4 @@
-# 1.0.0 (2020-03-02)
+# 1.0.0 (2020-03-03)
 
 
 ### Bug Fixes
@@ -46,6 +46,8 @@
 * new ([e1b1495](https://github.com/Rain120/awesome-javascript-code-implementation/commit/e1b1495c204bb8936a45356eaa8b7266020ba055))
 * object.is ([437d64a](https://github.com/Rain120/awesome-javascript-code-implementation/commit/437d64a8f5fb0ad357cadc41b11d68286aa81b3e))
 * observer pattern ([77c78f7](https://github.com/Rain120/awesome-javascript-code-implementation/commit/77c78f7359161c0e64b3143e3a66fea3f5d4eb46))
+* plop create code and docs model ([2dece76](https://github.com/Rain120/awesome-javascript-code-implementation/commit/2dece76fbfd83514551dbabadf7c54d73674730d))
+* plop new code and docs template ([61a936b](https://github.com/Rain120/awesome-javascript-code-implementation/commit/61a936b58bc52a1cf984dc6156746b43f65da7f1))
 * proxy design ([e615f39](https://github.com/Rain120/awesome-javascript-code-implementation/commit/e615f39497043f4c2357c7366cb13226b57208e6))
 * sort -> bubbleSort(algorithm, readme, test) ([36fab7b](https://github.com/Rain120/awesome-javascript-code-implementation/commit/36fab7b029d425ac129b6c4f202b18a9a3852fef))
 * sort -> bucket, radix; algorithm -> binaryTree; add some types; docs: update readme; fix: tests format, ([b1d166c](https://github.com/Rain120/awesome-javascript-code-implementation/commit/b1d166c7e56e37f35ab0bc7628186eeae15a4b60))
@@ -54,10 +56,10 @@
 * update netlify status ([013b5ca](https://github.com/Rain120/awesome-javascript-code-implementation/commit/013b5ca5847873adabbff93a89daa41500ccf153))
 * update readme for plans ([b427b96](https://github.com/Rain120/awesome-javascript-code-implementation/commit/b427b9667cc97c77df75ef0af56eb84b6b4c3ba6))
 * update test.yml -> ci.yml and set command ([43b96b6](https://github.com/Rain120/awesome-javascript-code-implementation/commit/43b96b63fc2788a5ea37fa7567c6a6dced4b875f))
-* update xmind ([4256758](https://github.com/Rain120/awesome-javascript-code-implementation/commit/4256758c5fe0a036ce3ececc43f848e48964d7a0))
-* update xmind ([408ca68](https://github.com/Rain120/awesome-javascript-code-implementation/commit/408ca685142dc425e90be64a284016d57d580893))
 * update xmind ([71317c6](https://github.com/Rain120/awesome-javascript-code-implementation/commit/71317c67376bc8196f80e25391adfdc9b2496380))
 * update xmind ([cb23933](https://github.com/Rain120/awesome-javascript-code-implementation/commit/cb23933f46152c59a7b08f84d7355b35bba25002))
+* update xmind ([408ca68](https://github.com/Rain120/awesome-javascript-code-implementation/commit/408ca685142dc425e90be64a284016d57d580893))
+* update xmind ([4256758](https://github.com/Rain120/awesome-javascript-code-implementation/commit/4256758c5fe0a036ce3ececc43f848e48964d7a0))
 * update: plans; fix: readme bug ([d44e559](https://github.com/Rain120/awesome-javascript-code-implementation/commit/d44e559def7834fcccbb19797a1d29bf5cc4e5b7))
 * vuepress docs v1.0.0 ([785caeb](https://github.com/Rain120/awesome-javascript-code-implementation/commit/785caeb41beeff7a0f53646fc952d1c89ebb61d5))
 * zh-cn and plans ([62b460f](https://github.com/Rain120/awesome-javascript-code-implementation/commit/62b460f200a2f76ee36cd3cae94d1660ed4ff3c2))
