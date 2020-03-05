@@ -1,8 +1,8 @@
 /*
  * @Author: Rainy
  * @Date: 2020-01-31 11:42:43
- * @LastEditors  : Rainy
- * @LastEditTime : 2020-02-07 12:55:08
+ * @LastEditors: Rainy
+ * @LastEditTime: 2020-03-04 22:17:41
  */
 
 const alias = {
@@ -24,6 +24,10 @@ const alias = {
   'function': '函数',
   'debounce': '防抖',
   'throttle': '节流',
+
+  // es6
+  'es6': 'ECMAScript 6(ES6)',
+  'promise': '手写Promise',
 
   // Array
   'array': 'Array(MDN + Function)',
