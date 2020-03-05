@@ -10,7 +10,7 @@
 
 <p align="center">Promise A+</p>
 
-<iframe src="http://liubin.org/promises-book/" width="100%" height="500px" frameborder="0" />
+<iframe src="//liubin.org/promises-book/" width="100%" height="500px" frameborder="0" />
 
 <p align="center">JavaScript Promise 迷你书</p>
 
