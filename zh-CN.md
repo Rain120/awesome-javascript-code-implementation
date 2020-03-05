@@ -12,6 +12,7 @@
 [![ISSUES](https://img.shields.io/github/issues/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/issues) [![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/pulls) [![COMMIT](https://img.shields.io/github/last-commit/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/commits/master)
 
 <!-- [![TEST](https://github.com/rain120/awesome-javascript-code-implementation/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/Rain120/awesome-javascript-code-implementation/actions) -->
+
 ![LANGUAGES](https://img.shields.io/github/languages/top/rain120/awesome-javascript-code-implementation?style=flat-square)
 [![VERSION](https://img.shields.io/github/package-json/v/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/blob/master/package.json) [![LICENSE](https://img.shields.io/github/license/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/blob/master/LICENSE)
 
@@ -74,7 +75,7 @@
 
 - [ ] ES6
 
-  - [ ] Promise
+  - [x] Promise
 
   - [ ] Proxy
 

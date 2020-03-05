@@ -12,6 +12,7 @@
 [![ISSUES](https://img.shields.io/github/issues/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/issues) [![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/pulls) [![COMMIT](https://img.shields.io/github/last-commit/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/commits/master)
 
 <!-- [![TEST](https://github.com/rain120/awesome-javascript-code-implementation/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/Rain120/awesome-javascript-code-implementation/actions) -->
+
 ![LANGUAGES](https://img.shields.io/github/languages/top/rain120/awesome-javascript-code-implementation?style=flat-square)
 [![VERSION](https://img.shields.io/github/package-json/v/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/blob/master/package.json) [![LICENSE](https://img.shields.io/github/license/rain120/awesome-javascript-code-implementation?style=flat-square)](https://github.com/Rain120/awesome-javascript-code-implementation/blob/master/LICENSE)
 
@@ -49,6 +50,7 @@ Document Link:
 ⌨️
 
 生成 `code` 模板
+
 ```sh
 npm run template
 ```
@@ -60,6 +62,7 @@ npm run docs
 ```
 
 同时生成 `code` `docs`模板
+
 ```
 npm run template-docs
 ```
@@ -92,7 +95,7 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
 - [ ] ES6
 
-  - [ ] Promise
+  - [x] Promise
 
   - [ ] Proxy
 
@@ -161,7 +164,7 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 #### 📰 References
 
 - Algorithms
-  
+
   [Visualising Data Structures and Algorithms Through Animation](https://visualgo.net/)
 
   [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
