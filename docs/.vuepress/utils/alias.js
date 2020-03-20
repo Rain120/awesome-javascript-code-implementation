@@ -2,7 +2,7 @@
  * @Author: Rainy
  * @Date: 2020-01-31 11:42:43
  * @LastEditors: Rainy
- * @LastEditTime: 2020-03-04 22:17:41
+ * @LastEditTime: 2020-03-19 17:25:45
  */
 
 const alias = {
@@ -24,6 +24,9 @@ const alias = {
   'function': '函数',
   'debounce': '防抖',
   'throttle': '节流',
+
+  // vdom-diff
+  'vdom-diff': '实现React/Vue DOM Diff算法',
 
   // es6
   'es6': 'ECMAScript 6(ES6)',
