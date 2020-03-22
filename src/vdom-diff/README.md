@@ -1,4 +1,8 @@
-## 原理
+## 虚拟DOM 相关解释
+
+[vdom-diff](https://rain120.github.io/awesome-javascript-code-implementation/zh/vdom-diff/)
+
+## 实现原理
 
 ### 通过 JavaScript对象来描述真实DOM
 
@@ -121,10 +125,6 @@ function patch(parent, patches, index = 0) {
   }
 }
 ```
-
-### 先序深度遍历
-
-![dom-diff-alogrithm.png](./images/dom-diff-alogrithm.png)
 
 ## Demo
 
