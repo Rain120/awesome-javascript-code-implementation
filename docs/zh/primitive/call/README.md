@@ -4,7 +4,7 @@
 
 ## 实现代码
 
-<<< @/src/call/index.ts
+<<< @/src/primitive/call/index.ts
 
 ## 参考
 

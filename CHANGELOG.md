@@ -1,4 +1,4 @@
-# 1.0.0 (2020-03-22)
+# 1.0.0 (2020-04-09)
 
 
 ### Bug Fixes
@@ -58,9 +58,10 @@
 * update netlify status ([013b5ca](https://github.com/Rain120/awesome-javascript-code-implementation/commit/013b5ca5847873adabbff93a89daa41500ccf153))
 * update readme for plans ([b427b96](https://github.com/Rain120/awesome-javascript-code-implementation/commit/b427b9667cc97c77df75ef0af56eb84b6b4c3ba6))
 * update test.yml -> ci.yml and set command ([43b96b6](https://github.com/Rain120/awesome-javascript-code-implementation/commit/43b96b63fc2788a5ea37fa7567c6a6dced4b875f))
+* update vdom-diff docs ([06590c5](https://github.com/Rain120/awesome-javascript-code-implementation/commit/06590c56d0df7cbba68bb705cb7e159f6f765c3a))
 * update xmind ([71317c6](https://github.com/Rain120/awesome-javascript-code-implementation/commit/71317c67376bc8196f80e25391adfdc9b2496380))
-* update xmind ([408ca68](https://github.com/Rain120/awesome-javascript-code-implementation/commit/408ca685142dc425e90be64a284016d57d580893))
 * update xmind ([4256758](https://github.com/Rain120/awesome-javascript-code-implementation/commit/4256758c5fe0a036ce3ececc43f848e48964d7a0))
+* update xmind ([408ca68](https://github.com/Rain120/awesome-javascript-code-implementation/commit/408ca685142dc425e90be64a284016d57d580893))
 * update xmind ([cb23933](https://github.com/Rain120/awesome-javascript-code-implementation/commit/cb23933f46152c59a7b08f84d7355b35bba25002))
 * update: plans; fix: readme bug ([d44e559](https://github.com/Rain120/awesome-javascript-code-implementation/commit/d44e559def7834fcccbb19797a1d29bf5cc4e5b7))
 * vdom diff algorithm ([3b7779d](https://github.com/Rain120/awesome-javascript-code-implementation/commit/3b7779dcad7e184027d1bddfa6387224c2f009d3))
