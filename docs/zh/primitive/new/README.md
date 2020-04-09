@@ -9,4 +9,4 @@
 
 ## 实现代码
 
-<<< @/src/new/index.ts
+<<< @/src/primitive/new/index.ts

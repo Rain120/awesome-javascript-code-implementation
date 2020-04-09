@@ -23,6 +23,7 @@
     "template-docs": "npm run plop model-template-docs",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
+    "commit-push": "./commit-push.sh",
     "deploy": "bash deploy.sh"
   },
   "keywords": [
@@ -47,7 +48,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run deploy && npm run changelog && npm run testing && git add . && lint-staged",
+      "pre-commit": "lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
