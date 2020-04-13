@@ -77,15 +77,27 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
 #### 🔗 Links
 
+Note: Just for Summary, More detail please go to [docs](https://rain120.github.io/awesome-javascript-code-implementation/)
+
 - [ ] Primitive
 
   - [ ] Javascript Keys
 
-    - [x] [instanceof](src/instanceof/README.md)
+    - [x] [instanceof](src/primitive/instanceof/README.md)
 
-    - [x] [new](src/new/README.md)
+    - [x] [apply](src/primitive/apply/README.md)
+
+    - [x] [bind](src/primitive/bind/README.md)
+
+    - [x] [call](src/primitive/call/README.md)
+
+    - [x] [new](src/primitive/new/README.md)
 
   - [ ] Array
+
+    - [x] [arrayMove](src/Array/arrayMove/README.md)
+
+    - [x] [find](src/Array/find/README.md)
 
     - [x] [isArray](src/Array/isArray/README.md)
 
@@ -171,7 +183,7 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
   [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 
-- sort
+- Sort
 
   [JS-Sorting-Algorithm](https://github.com/Rain120/JS-Sorting-Algorithm)
 

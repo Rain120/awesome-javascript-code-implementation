@@ -1,4 +1,4 @@
-# 1.0.0 (2020-04-09)
+# 1.0.0 (2020-04-13)
 
 
 ### Bug Fixes
@@ -23,6 +23,7 @@
 * add husky, tslint, commitlint, changelog ([ca578ad](https://github.com/Rain120/awesome-javascript-code-implementation/commit/ca578adfa96e0ee7909e670777defb88aabe01f1))
 * add singleton-pattern ([0faedce](https://github.com/Rain120/awesome-javascript-code-implementation/commit/0faedce16ff1cbf30ebb68c5f4233cbcb0276d4d))
 * algorithm 9 sort(buble, counting, heap, insertion, selection, quick, shell) ([db7159a](https://github.com/Rain120/awesome-javascript-code-implementation/commit/db7159a7a1253b8df6280f0778ac9aa33ceda9a3))
+* apply, bind; commit-push.sh; move call instanceof new to primitive ([f183666](https://github.com/Rain120/awesome-javascript-code-implementation/commit/f183666f22f431dec5a5cb132f2ca713d2cef0a5))
 * arrayMove; update readme: add shields; add coveralls ([2292e38](https://github.com/Rain120/awesome-javascript-code-implementation/commit/2292e386d5d3198f52927d87faba7d9d3079cb3c))
 * call; add jest coverage ([1599e55](https://github.com/Rain120/awesome-javascript-code-implementation/commit/1599e55d5435b8aa48a7c978c0eecc1678e66c96))
 * decorator design ([11ef72e](https://github.com/Rain120/awesome-javascript-code-implementation/commit/11ef72e3e4c00c8cf07712182382cfa7cff44938))
