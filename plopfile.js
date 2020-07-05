@@ -2,8 +2,41 @@
  * @Author: Rainy
  * @Date: 2020-03-01 19:29:27
  * @LastEditors: Rainy
- * @LastEditTime: 2020-03-03 10:25:16
+ * @LastEditTime: 2020-07-05 17:18:48
  */
+
+
+const path = require('path');
+const fs = require('fs');
+
+const aliasPath = path.resolve('docs/.vuepress/utils/alias.json')
+
+/**
+ *
+ * @param {string} key modal name
+ * @param {string} value modal alias
+ */
+function addAlias(key, value, needSplitLine = false) {
+  key = key.trim().split(' ')[0];
+	const data = fs.readFileSync(aliasPath, 'utf-8');
+	const content = JSON.parse(data);
+	if (!value) {
+		value = key;
+	}
+  // if (needSplitLine) {
+  //   const split = `${key}-------`;
+  //   content[split] = '';
+  // }
+	if (!content[key]) {
+		content[key] = value;
+	} else {
+		throw new Error('The key is exist');
+	}
+
+	const file = JSON.stringify(content, null, 2);
+
+	fs.writeFileSync(aliasPath, new Buffer(file))
+}
 
 module.exports = plop => {
   plop.setGenerator('template', {
@@ -61,12 +94,18 @@ module.exports = plop => {
       },
       {
         type: 'input',
+        name: 'alias',
+        message: 'please input the docs model alias name (default same as model name)?'
+      },
+      {
+        type: 'input',
         name: 'path',
         message: 'generator model path (etc: docs/zh/model) ?',
         default: 'docs/zh'
       }
     ],
     actions: answer => {
+      addAlias(answer.name, answer.alias);
       return [
         {
           type: 'add',
@@ -84,6 +123,11 @@ module.exports = plop => {
         name: 'name',
         message: 'please input the name: ',
         default: 'template'
+      },
+      {
+        type: 'input',
+        name: 'alias',
+        message: 'please input the docs model alias name (default same as model name)?'
       },
       {
         type: 'confirm',
@@ -104,6 +148,7 @@ module.exports = plop => {
       }
     ],
     actions: answer => {
+      addAlias(answer.name, answer.alias, true);
       let actions = [
         {
           type: 'add',
