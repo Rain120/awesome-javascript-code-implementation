@@ -45,9 +45,9 @@ Document Link:
 
 [Xmind Download](plans.xmind)
 
-#### 🔨 Usage
+#### 🔨 Quick Start
 
-⌨️
+<!-- ⌨️ To be Continue... -->
 
 生成 `code` 模板
 
@@ -68,6 +68,18 @@ npm run template-docs
 ```
 
 [how-to-write-docs](docs/zh/how-to-write-docs/README.md)
+
+#### 🌏Deploy
+
+##### -> https://rain120.github.io/awesome-javascript-code-implementation
+
+```
+npm run deploy
+```
+
+##### -> https://awesome-javascript-code-implementation.netlify.com/
+
+`netlify auto deploy`
 
 #### 🤝 Contributing
 

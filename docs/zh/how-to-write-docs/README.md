@@ -20,6 +20,13 @@ npm run docs
 touch docs/zh/test/README.md
 ```
 
+```sh
+# npm run docs
+? please input the docs model name:  model
+? please input the docs model alias name (default same as model name)? 
+? generator model path (etc: docs/zh/model) ? docs/zh
+```
+
 `Eg: File Path`
 
 ```sh
@@ -46,11 +53,54 @@ docs/zh
 │   │   └── README.md
 ```
 
+**模板文件**
+`plop-templates/docs/zh/README.md.hbs`
+
+<<< @/plop-templates/docs/zh/README.md.hbs
+
+## 新建 Code 模板 + 单测模板
+
+```sh
+npm run template-docs
+```
+
+```sh
+? please input the name:  template
+? please input the docs model alias name (default same as model name)? 
+? Do you want test file ?  Yes
+? generator path (etc: src/template) ? src
+? generator model path (etc: docs/zh/model) ? docs/zh
+```
+
+**模板文件**
+
+`plop-templates/code/__tests__.ts.hbs`
+
+<<< @/plop-templates/code/__tests__.ts.hbs
+
+`plop-templates/code/index.ts.hbs`
+
+<<< @/plop-templates/code/index.ts.hbs
+
+`plop-templates/code/README.md.hbs`
+
+<<< @/plop-templates/code/README.md.hbs
+
+## 文档顺序
+
+::: tip
+`alias.json` 的顺序就是文档的顺序
+:::
+
 ## 配置别名
 
-我们不支持中文名文件夹, 所以你需要给文件名配置别名, 只需要在`docs/.vuepress/utils/alias.js`中配置 `key-value`值即可
+::: tip
+通过使用 [新建文件](#新建文件) 的脚本来动态配置 `alias`, 妈妈再也不用担心我找不到配置了。
+:::
 
-<<< @/docs/.vuepress/utils/alias.js
+我们不支持中文名文件夹, 所以你需要给文件名配置别名, 只需要在`docs/.vuepress/utils/alias.json`中配置 `key-value`值即可
+
+<<< @/docs/.vuepress/utils/alias.json
 
 ## 图片
 

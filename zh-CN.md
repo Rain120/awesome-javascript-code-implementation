@@ -47,9 +47,41 @@
 
 [Xmind 下载地址](plans.xmind)
 
-#### 🔨 使用
+#### 🔨 快速开发
 
-⌨️ 正在拼命开发中...
+<!-- ⌨️ 正在拼命开发中... -->
+
+生成 `code` 模板
+
+```sh
+npm run template
+```
+
+生成 `docs` 模板
+
+```sh
+npm run docs
+```
+
+同时生成 `code` `docs`模板
+
+```
+npm run template-docs
+```
+
+[how-to-write-docs](docs/zh/how-to-write-docs/README.md)
+
+#### 发布
+
+##### -> https://rain120.github.io/awesome-javascript-code-implementation
+
+```
+npm run deploy
+```
+
+##### -> https://awesome-javascript-code-implementation.netlify.com/
+
+`netlify` 自动发布
 
 #### 🤝 贡献 ![PR](https://img.shields.io/badge/PRs-Welcome-orange?style=flat-square&logo=appveyor)
 

@@ -1,23 +1,17 @@
 const path = require('path');
 const plugins = require('./utils/plugins');
-const { sidebarHelper } = require('./utils/sidebarHelper');
+const { sidebarHelper, sortSidebar } = require('./utils/sidebarHelper');
 const nav = require('./utils/nav');
 
 /**
- * @description [guide, how-to-write-docs, ...]
+ * sortSidebar 根据 alias 设置顺序，默认顺序为 文件夹名字的顺序
  */
-const docs = sidebarHelper();
-const sidebar = [];
-docs.map(item => {
-  if (item.path.includes('guide') || item.path.includes('how-to-write-docs')) {
-      sidebar.unshift(item)
-  } else {
-      sidebar.push(item)
-  }
-});
-[sidebar[1], sidebar[0]] = [sidebar[0], sidebar[1]];
+
+const sidebar = sortSidebar(sidebarHelper());
 
 // git pages base project name -> /awesome-javascript-code-implementation/, netlify base: ''
+// deploy https://rain120.github.io/awesome-javascript-code-implementation build has argv
+// more info go to deploy.sh
 const ARGV = (process.argv || []).slice(-1)[0];
 const base = ARGV !== 'docs' ? ARGV : '';
 
