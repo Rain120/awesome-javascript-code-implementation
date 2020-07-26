@@ -10,7 +10,7 @@ Array.prototype.find = function(predicate, /* thisArg*/) {}
 function (collection, predicate) {}
 ```
 
-## 原理
+## 解题思路 or 实现原理
 
 `find` 方法对数组中的每一项元素执行一次 `predicate` 函数, 直至有一个 `predicate` 返回 `true`. 当找到了这样一个元素后, 该方法会立即返回这个元素的值, 否则返回 `undefined`. 注意`predicate` 函数会为数组中的每个索引调用即从 0 到 `length - 1`, 而不仅仅是那些被赋值的索引, 这意味着对于稀疏数组来说, 该方法的效率要低于那些只遍历有值的索引的方法.
 
