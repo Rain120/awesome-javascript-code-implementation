@@ -1,9 +1,10 @@
-# 1.0.0 (2020-07-05)
+# 1.0.0 (2020-07-26)
 
 
 ### Bug Fixes
 
 * algorithms docs build bug ([c4ed72d](https://github.com/Rain120/awesome-javascript-code-implementation/commit/c4ed72d2da7b0f940a4f7530bdfaaa47631741ff))
+* changelog not add ([d69f43f](https://github.com/Rain120/awesome-javascript-code-implementation/commit/d69f43f5112ea7d55242b46ca670ad54741bd940))
 * ci bug ([f6185d6](https://github.com/Rain120/awesome-javascript-code-implementation/commit/f6185d6f29e1587bba76f0772433441602bc8db7))
 * deploy bug ([568b663](https://github.com/Rain120/awesome-javascript-code-implementation/commit/568b663a5fd6d1b4ab40043e0a693564d7dc3a84))
 * gitalk cannot login; feat: manifest ([ee9e237](https://github.com/Rain120/awesome-javascript-code-implementation/commit/ee9e237314451244a13c6c4c13f8a119572b6ecb))
@@ -50,11 +51,12 @@
 * observer pattern ([77c78f7](https://github.com/Rain120/awesome-javascript-code-implementation/commit/77c78f7359161c0e64b3143e3a66fea3f5d4eb46))
 * plop create code and docs model ([2dece76](https://github.com/Rain120/awesome-javascript-code-implementation/commit/2dece76fbfd83514551dbabadf7c54d73674730d))
 * plop new code and docs template ([61a936b](https://github.com/Rain120/awesome-javascript-code-implementation/commit/61a936b58bc52a1cf984dc6156746b43f65da7f1))
-* plop new docs or template set alias; update docs about alias ([99acb07](https://github.com/Rain120/awesome-javascript-code-implementation/commit/99acb07f03348613efab69049a240bf04928dc6b))
+* plop new docs or template set alias; update docs about alias ([3722bcc](https://github.com/Rain120/awesome-javascript-code-implementation/commit/3722bccea8605dfef55dd270e7f2ca14a1c03ae7))
 * promise; debugger launch ([cc8ad80](https://github.com/Rain120/awesome-javascript-code-implementation/commit/cc8ad803956e65431cedd97f1ebb333ffe78c28e))
 * proxy design ([e615f39](https://github.com/Rain120/awesome-javascript-code-implementation/commit/e615f39497043f4c2357c7366cb13226b57208e6))
 * sort -> bubbleSort(algorithm, readme, test) ([36fab7b](https://github.com/Rain120/awesome-javascript-code-implementation/commit/36fab7b029d425ac129b6c4f202b18a9a3852fef))
 * sort -> bucket, radix; algorithm -> binaryTree; add some types; docs: update readme; fix: tests format, ([b1d166c](https://github.com/Rain120/awesome-javascript-code-implementation/commit/b1d166c7e56e37f35ab0bc7628186eeae15a4b60))
+* sword means offer: 03 find repeat number; fix: plop template; readme title ([cf084d8](https://github.com/Rain120/awesome-javascript-code-implementation/commit/cf084d80099aa5445bd6522a6d8be373ad2c73fb))
 * update docs -> algorithm: binary tree, sort ([5d57bc4](https://github.com/Rain120/awesome-javascript-code-implementation/commit/5d57bc4489551bffeca34102f2fce61b59996873))
 * update docs -> design pattern function array object math primitive types utils ([1690af5](https://github.com/Rain120/awesome-javascript-code-implementation/commit/1690af5ed96c46341465f72866732837e5c72200))
 * update netlify status ([013b5ca](https://github.com/Rain120/awesome-javascript-code-implementation/commit/013b5ca5847873adabbff93a89daa41500ccf153))
@@ -62,9 +64,9 @@
 * update test.yml -> ci.yml and set command ([43b96b6](https://github.com/Rain120/awesome-javascript-code-implementation/commit/43b96b63fc2788a5ea37fa7567c6a6dced4b875f))
 * update vdom-diff docs ([06590c5](https://github.com/Rain120/awesome-javascript-code-implementation/commit/06590c56d0df7cbba68bb705cb7e159f6f765c3a))
 * update xmind ([cb23933](https://github.com/Rain120/awesome-javascript-code-implementation/commit/cb23933f46152c59a7b08f84d7355b35bba25002))
+* update xmind ([71317c6](https://github.com/Rain120/awesome-javascript-code-implementation/commit/71317c67376bc8196f80e25391adfdc9b2496380))
 * update xmind ([408ca68](https://github.com/Rain120/awesome-javascript-code-implementation/commit/408ca685142dc425e90be64a284016d57d580893))
 * update xmind ([4256758](https://github.com/Rain120/awesome-javascript-code-implementation/commit/4256758c5fe0a036ce3ececc43f848e48964d7a0))
-* update xmind ([71317c6](https://github.com/Rain120/awesome-javascript-code-implementation/commit/71317c67376bc8196f80e25391adfdc9b2496380))
 * update: plans; fix: readme bug ([d44e559](https://github.com/Rain120/awesome-javascript-code-implementation/commit/d44e559def7834fcccbb19797a1d29bf5cc4e5b7))
 * vdom diff algorithm ([3b7779d](https://github.com/Rain120/awesome-javascript-code-implementation/commit/3b7779dcad7e184027d1bddfa6387224c2f009d3))
 * vuepress docs v1.0.0 ([785caeb](https://github.com/Rain120/awesome-javascript-code-implementation/commit/785caeb41beeff7a0f53646fc952d1c89ebb61d5))
