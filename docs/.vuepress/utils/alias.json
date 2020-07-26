@@ -51,5 +51,8 @@
   "quickSort": "快速排序",
   "radixSort": "基数排序",
   "selectionSort": "选择排序",
-  "shellSort": "希尔排序"
+  "shellSort": "希尔排序",
+  "sword-means-offer-------": "",
+  "sword-means-offer": "剑指 Offer",
+  "03-find-repeat-number": "03. 数组中重复的数字"
 }
