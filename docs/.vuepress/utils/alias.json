@@ -54,5 +54,6 @@
   "shellSort": "希尔排序",
   "sword-means-offer-------": "",
   "sword-means-offer": "剑指 Offer",
-  "03-find-repeat-number": "03. 数组中重复的数字"
+  "03-find-repeat-number": "03. 数组中重复的数字",
+  "64-sum-1-n-nums": "64 求1 ~ n的和"
 }
