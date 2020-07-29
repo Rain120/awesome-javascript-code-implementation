@@ -18,7 +18,9 @@
 
 限制:
 
+```
 1 <= n <= 10000
+```
 
 来源: [力扣 (LeetCode)](https://leetcode-cn.com/problems/qiu-12n-lcof)
 

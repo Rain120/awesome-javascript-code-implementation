@@ -1,4 +1,4 @@
-# 1.0.0 (2020-07-28)
+# 1.0.0 (2020-07-29)
 
 
 ### Bug Fixes
@@ -13,6 +13,7 @@
 * math docs menu ([3958b99](https://github.com/Rain120/awesome-javascript-code-implementation/commit/3958b99b27170aa419b4b8983d7cf62cbae6b724))
 * netlify deploy bug ([f1830e9](https://github.com/Rain120/awesome-javascript-code-implementation/commit/f1830e9a07d27b4d6b9c3c67e13272e9064bb322))
 * plop create code and docs model(plop name bug) ([8ef0e62](https://github.com/Rain120/awesome-javascript-code-implementation/commit/8ef0e627daadc21842de8a35495c345f9ca70550))
+* plop docs code path; changelog; feat: editorconfig ([27073f0](https://github.com/Rain120/awesome-javascript-code-implementation/commit/27073f0aee4027321e798b0d48d900a686df5326))
 * readme selected; package.json husky add test ([b228b61](https://github.com/Rain120/awesome-javascript-code-implementation/commit/b228b6194832f909c0b3c7a0c38843bab3b7c63d))
 * remove changelog at pre commit ([c49bf26](https://github.com/Rain120/awesome-javascript-code-implementation/commit/c49bf2667ff411786de3bb2442a6a4b8af9a0083))
 
