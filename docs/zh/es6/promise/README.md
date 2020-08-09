@@ -4,13 +4,21 @@
 
 ![promise-process.png](@images/src/promise/images/promise-process.png)
 
+### Then
+
+![promise-then.png](@images/src/promise/images/promise-then.png)
+
+### Promise 解决办法
+
+![promise-resolve.png](@images/src/promise/images/promise-resolve.png)
+
 <p align="center">Promise Process</p>
 
 <iframe src="https://promisesaplus.com/" width="100%" height="500px" frameborder="0" />
 
 <p align="center">Promise A+</p>
 
-<iframe src="//liubin.org/promises-book/" width="100%" height="500px" frameborder="0" />
+<iframe src="http://liubin.org/promises-book/" width="100%" height="500px" frameborder="0" />
 
 <p align="center">JavaScript Promise 迷你书</p>
 
