@@ -11,7 +11,7 @@ on:
 
 jobs:
   build-and-deploy:
-    name: Deploy Docs
+    name: Test and Deploy Docs
     runs-on: ubuntu-latest
 
     steps:
@@ -25,24 +25,24 @@ jobs:
           # npm run deploy
           npm run test
           # npm run changelog
-      
+
       # - name: Coveralls Parallel
       #   uses: coverallsapp/github-action@master
       #   with:
       #     github-token: ${{ secrets.ACCESS_TOKEN }}
       #     parallel: true
       #     path-to-lcov: ./coverage/lcov.info
-    
+
       # - name: Coveralls Finished
       #   uses: coverallsapp/github-action@master
       #   with:
       #     github-token: ${{ secrets.ACCESS_TOKEN }}
       #     parallel-finished: true
 
-      # - name: Build and Deploy Docs
-      #   uses: JamesIves/github-pages-deploy-action@master
-      #   env:
-      #     ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-      #     BRANCH: gh-pages
-      #     FOLDER: docs/.vuepress/dist
-      #     BUILD_SCRIPT: npm install && npm run docs:build
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@master
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: docs/.vuepress/dist
+          BUILD_SCRIPT: npm run deploy
