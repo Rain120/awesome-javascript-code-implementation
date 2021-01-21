@@ -168,6 +168,8 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
   [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 
+	[算法小抄](https://labuladong.gitbook.io/algo/)
+
 - sort
 
   [JS-Sorting-Algorithm](https://github.com/Rain120/JS-Sorting-Algorithm)
