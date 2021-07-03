@@ -6,8 +6,8 @@ on:
       - master
   pull_request:
     branches:
-      - '!master'
-      - 'dev**'
+      - "!master"
+      - "dev**"
 
 jobs:
   build-and-deploy:
@@ -41,7 +41,7 @@ jobs:
       #     parallel-finished: true
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@master
+        uses: JamesIves/github-pages-deploy-action@4.1.4
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
