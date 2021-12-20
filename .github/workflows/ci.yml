@@ -24,7 +24,7 @@ jobs:
           # npm run build --if-present
           # npm run deploy
           npm run test
-          npm run docs:build
+          npm run docs:build '/awesome-javascript-code-implementation/'
           # npm run changelog
 
       # - name: Coveralls Parallel
