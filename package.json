@@ -64,7 +64,7 @@
     "conventional-changelog-cli": "^2.0.27",
     "coveralls": "^3.0.8",
     "husky": "^3.1.0",
-    "jest": "^24.9.0",
+    "jest": "^29.5.0",
     "lint-staged": "^9.5.0",
     "markdown-it-imsize": "^2.0.1",
     "markdown-it-katex": "^2.0.3",
